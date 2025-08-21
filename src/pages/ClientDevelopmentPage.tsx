@@ -100,7 +100,7 @@ const ClientDevelopmentPage = () => {
                 <span className="text-white font-medium">50+ Projects Delivered</span>
               </div>
               <div className="bg-white/10 px-4 py-2 rounded-full">
-                <span className="text-white font-medium">5+ Years Experience</span>
+                <span className="text-white font-medium">25+ Years Experience</span>
               </div>
             </div>
           </div>
