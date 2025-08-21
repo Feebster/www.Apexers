@@ -6,7 +6,7 @@ const About = () => {
     { number: '3', label: 'Expert Developers', icon: Users },
     { number: '50+', label: 'Projects Delivered', icon: Target },
     { number: '4', label: 'Core Specializations', icon: Lightbulb },
-    { number: '5+', label: 'Years Experience', icon: Award },
+    { number: '25+', label: 'Years Experience', icon: Award },
   ];
 
   return (
