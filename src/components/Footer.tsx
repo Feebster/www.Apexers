@@ -95,12 +95,14 @@ const Footer = () => {
             <ul className="space-y-3">
               {projects.map((project) => (
                 <li key={project.name}>
+                  <a href="{project.url}" target="_blank" rel="noopener noreferrer">
                   <div className="flex items-center justify-between group">
                     <span className="text-gray-300 group-hover:text-blue-400 transition-colors duration-300">
                       {project.name}
                     </span>
                     <ExternalLink className="w-4 h-4 text-gray-500 group-hover:text-blue-400 transition-colors duration-300" />
                   </div>
+                  </a>
                   <div className="text-xs text-gray-500 mt-1">{project.url}</div>
                 </li>
               ))}
