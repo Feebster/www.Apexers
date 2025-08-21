@@ -60,14 +60,14 @@ const Footer = () => {
                 className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition-colors duration-300"
               >
                 <Mail className="w-4 h-4" />
-                hello@apexers.nl
+                support@apexers.nl
               </a>
               <a
                 href="tel:+31123456789"
                 className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition-colors duration-300"
               >
                 <Phone className="w-4 h-4" />
-                +31 (0) 123 456 789
+                +31 (0) 172 748 618
               </a>
             </div>
           </div>
