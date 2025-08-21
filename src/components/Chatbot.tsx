@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Bot, User, Minimize2 } from 'lucide-react';
 
 const API_CONFIG = {
-  baseUrl: 'https://powerwiz-chat-production.up.railway.app', // Jouw API base URL
+  baseUrl: 'https://powerwiz-chat.up.railway.app', // Jouw API base URL
   chatEndpoint: '/chat', // Chat endpoint
   assistantId: 'asst_bMbkOPYH1Euw6RzEt3RExu8n', // assistent identifier for Apexers
   timeout: 30000, // 30 seconden timeout voor Assistant API
