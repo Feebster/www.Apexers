@@ -1,6 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Bot, User, Minimize2 } from 'lucide-react';
 
+const API_CONFIG = {
+  baseUrl: 'https://powerwiz-chat-production.up.railway.app', // Jouw API base URL
+  chatEndpoint: '/chat', // Chat endpoint
+  assistantId: 'asst_bMbkOPYH1Euw6RzEt3RExu8n', // assistent identifier for Apexers
+  timeout: 30000, // 30 seconden timeout voor Assistant API
+};
+
 interface Message {
   id: string;
   text: string;
@@ -35,11 +42,15 @@ const Chatbot = () => {
     const initializeThread = async () => {
       try {
         // Get user's IP and initialize thread
-        const response = await fetch('/api/chatbot/init', {
+        const response = await fetch(`${API_CONFIG.baseUrl}${API_CONFIG.chatEndpoint}`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-          }
+          },
+          body: JSON.stringify({
+            message: message,
+            assistantId: API_CONFIG.assistantId
+          })
         });
         const data = await response.json();
         setThreadId(data.threadId);
@@ -114,14 +125,15 @@ const Chatbot = () => {
 
   // Send message to your backend with threadId
   const sendMessageToBackend = async (message: string, currentThreadId: string): Promise<ChatbotResponse> => {
-    const response = await fetch('/api/chatbot/message', {
+    const response = await fetch(`${API_CONFIG.baseUrl}${API_CONFIG.chatEndpoint}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
         message: message,
-        threadId: currentThreadId
+        threadId: currentThreadId,
+        assistantId: API_CONFIG.assistantId
       })
     });
 
