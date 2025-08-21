@@ -48,7 +48,7 @@ const Chatbot = () => {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            message: message,
+            message: "connecting...",
             assistantId: API_CONFIG.assistantId
           })
         });
