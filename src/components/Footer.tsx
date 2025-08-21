@@ -95,7 +95,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {projects.map((project) => (
                 <li key={project.name}>
-                  <a href="{project.url}" target="_blank" rel="noopener noreferrer">
+                  <a href={"https://"+project.url} target="_blank" rel="noopener noreferrer">
                   <div className="flex items-center justify-between group">
                     <span className="text-gray-300 group-hover:text-blue-400 transition-colors duration-300">
                       {project.name}
