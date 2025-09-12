@@ -39,7 +39,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl font-bold text-blue-700 hover:text-blue-800 transition-colors duration-200">
+            <Link to="/" className="text-3xl font-bold text-blue-400 hover:text-blue-400 transition-colors duration-200">
               Apexers
             </Link>
           </div>
