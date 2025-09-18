@@ -26,22 +26,22 @@ const Portfolio = () => {
     },
     {
       title: 'PowerWiz AI Platform',
-      category: 'AI & Automatisering',
-      description: 'Geavanceerde AI agents en chatbot implementaties voor e-commerce content creatie en klantbetrokkenheid.',
+      category: 'AI & Automation',
+      description: 'Cutting-edge AI agents en chatbot implementations voor e-commerce content creation en customer engagement.',
       image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['AI', 'Machine Learning', 'E-commerce', 'Automatisering'],
+      tags: ['AI', 'Machine Learning', 'E-commerce', 'Automation'],
       link: 'powerwiz.nl',
-      featured: true,
+      featured: false,
       pageLink: '/services/ai-solutions'
     },
     {
-      title: 'Zakelijke Klant Ontwikkeling',
-      category: 'Maatwerk Ontwikkeling',
-      description: 'Op maat gemaakte ontwikkeloplossingen voor grote zakelijke klanten inclusief moderne webapplicaties en systeemintegraties.',
+      title: 'Enterprise Client Development',
+      category: 'Custom Development',
+      description: 'Tailored development solutions voor major enterprise clients inclusief moderne web applications en system integrations.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Zakelijk', 'Full-Stack', 'Integratie', 'Maatwerk'],
+      tags: ['Enterprise', 'Full-Stack', 'Integration', 'Custom'],
       link: 'Juva, AS Watson, Cannock, Heerema, Biblion',
-      featured: true,
+      featured: false,
       pageLink: '/services/client-development'
     }
   ];
@@ -146,57 +146,6 @@ const Portfolio = () => {
                     Bekijk Project
                     <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
                   </Link>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <Link 
-            to="/#services"
-            className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
-          >
-            Bekijk Alle Services
-          </Link>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Portfolio;
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                
-                <div className="flex-1 p-6">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm text-blue-600 font-medium">{project.category}</span>
-                    <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors duration-300" />
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
-                    {project.title}
-                  </h3>
-                  <p className="text-sm text-gray-600 mb-3 line-clamp-2">
-                    {project.description}
-                  </p>
-                  
-                  <div className="flex flex-wrap gap-1">
-                    {project.tags.slice(0, 3).map((tag, idx) => (
-                      <span key={idx} className="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs">
-                      <Link to={project.pageLink}>
-                        <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors duration-300" />
-                      </Link>
-                      </span>
-                    ))}
-                    {project.tags.length > 3 && (
-                      <span className="px-2 py-1 text-gray-500 text-xs">+{project.tags.length - 3}</span>
-                    )}
-                  </div>
                 </div>
               </div>
             </div>
