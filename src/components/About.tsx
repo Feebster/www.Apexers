@@ -42,7 +42,6 @@ const About = () => {
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Wij overbruggen de kloof tussen geavanceerde technologie en praktische businessoplossingen. Onze brede expertise 
               strekt zich uit van maatwerk client development tot AI-innovatie, onderwijstechnologie en industriële automatisering.
-
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               Met de juiste balans tussen klantprojecten en innovatief contractwerk leveren wij consistent uitstekende 
