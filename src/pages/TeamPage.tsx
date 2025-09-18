@@ -25,7 +25,7 @@ const TeamPage = () => {
     },
     {
       name: 'Kosse',
-      role: 'AI Specialist & Innovation Lead',
+      role: 'De data expert',
       image: 'https://www.apexers.nl/images/aa7315ee-13a8-45b2-a5db-b4785be0c0e2.jpg',
       bio: 'Kosse is onze AI expert die cutting-edge artificial intelligence solutions ontwikkelt. Hij transformeert complexe business challenges naar intelligente, geautomatiseerde oplossingen.',
       specialties: ['Kunstmatige Intelligentie', 'Machine Learning', 'Data Wetenschap', 'Automatisering'],
@@ -41,7 +41,7 @@ const TeamPage = () => {
     },
     {
       name: 'Michel',
-      role: 'Senior Developer & Product Strategist',
+      role: 'De aanjager',
       image: 'https://www.apexers.nl/images/e4db7319-cfc1-41ff-83d3-aec0b64f2893.jpg',
       bio: 'Michel combineert technical expertise met strategic thinking.Zijn creatieve business geest staat 24/7 aan. Michel is uiterst klant gericht en met zijn win-win mentaliteit is er toegevoegde waarde voor alle partijen. Een ras echte ondernemer. ',
       specialties: ['Product Strategie', 'Backend Ontwikkeling', 'Database Ontwerp', 'API Architectuur'],
