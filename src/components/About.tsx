@@ -5,7 +5,7 @@ const About = () => {
   const stats = [
     { number: '3', label: 'Expert Developers', icon: Users },
     { number: '50+', label: 'Projecten Delivered', icon: Target },
-    { number: '4', label: 'Core Specialisaties', icon: Lightbulb },
+    { number: '4', label: 'In-house Solutions', icon: Lightbulb },
     { number: '25+', label: 'Jaar Experience', icon: Award },
   ];
 
