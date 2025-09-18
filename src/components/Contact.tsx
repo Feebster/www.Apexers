@@ -71,7 +71,7 @@ const Contact = () => {
             Neem Contact Op
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Ready om jouw ideeën te transformeren naar innovative solutions? Laten we jouw project bespreken en ontdekken hoe wij je kunnen helpen je goals te achieven.
+            Klaar om jouw ideeën om te zetten in innovatieve oplossingen? Laten we jouw project bespreken en ontdekken hoe wij je kunnen helpen jouw doelen te bereiken.
           </p>
         </div>
 
