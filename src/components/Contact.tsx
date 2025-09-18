@@ -82,7 +82,7 @@ const Contact = () => {
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Laten We Een Gesprek Starten</h3>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Of je nu custom development, AI solutions, educational technology, 
-                of industrial systemen nodig hebt, ons team is er om jouw vision tot leven te brengen.
+                of industrial systemen nodig hebt, ons team is er om jouw visie tot leven te brengen.
               </p>
             </div>
 
