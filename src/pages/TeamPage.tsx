@@ -9,11 +9,11 @@ const TeamPage = () => {
   const teamMembers = [
     {
       name: 'Dimitri',
-      role: 'Lead Developer & Co-Founder',
-      image: 'https://apexers.nl/wp-content/uploads/2024/01/dimitri-apexers-400x400.jpg',
-      bio: 'Dimitri is een ervaren full-stack developer met een passie voor innovative solutions en clean code. Hij leidt onze development teams en zorgt voor de technical excellence van alle projecten.',
+      role: 'De techie',
+      image: 'https://www.apexers.nl/images/6194243a-6970-4b71-94bf-cf9b904d3242.jpg',
+      bio: 'Dimitri is een ervaren full-stack developer met een passie voor innovative solutions en clean code. Altijd opzoek naar de mooiste, leukste, verrassenste digitale oplossing en is pas te vreden als het resultaat de wow factor heeft. Oog voor schoonheid en gebruikersgemak, laat ideeën tot leven komen in ​applicaties',
       specialties: ['Full-Stack Ontwikkeling', 'Systeem Architectuur', 'Team Leiderschap', 'Code Beoordeling'],
-      experience: '8+ jaar',
+      experience: '25+ jaar',
       location: 'Leiden, Nederland',
       color: 'blue',
       achievements: [
@@ -26,10 +26,10 @@ const TeamPage = () => {
     {
       name: 'Kosse',
       role: 'AI Specialist & Innovation Lead',
-      image: 'https://apexers.nl/wp-content/uploads/2024/01/kosse-apexers-400x400.jpg',
+      image: 'https://www.apexers.nl/images/aa7315ee-13a8-45b2-a5db-b4785be0c0e2.jpg',
       bio: 'Kosse is onze AI expert die cutting-edge artificial intelligence solutions ontwikkelt. Hij transformeert complexe business challenges naar intelligente, geautomatiseerde oplossingen.',
       specialties: ['Kunstmatige Intelligentie', 'Machine Learning', 'Data Wetenschap', 'Automatisering'],
-      experience: '6+ jaar',
+      experience: '25+ jaar',
       location: 'Amsterdam, Nederland',
       color: 'teal',
       achievements: [
@@ -42,10 +42,10 @@ const TeamPage = () => {
     {
       name: 'Michel',
       role: 'Senior Developer & Product Strategist',
-      image: 'https://apexers.nl/wp-content/uploads/2024/01/michel-apexers-400x400.jpg',
-      bio: 'Michel combineert technical expertise met strategic thinking. Hij zorgt ervoor dat onze solutions niet alleen technisch excellent zijn, maar ook perfect aansluiten bij business objectives.',
+      image: 'https://www.apexers.nl/images/e4db7319-cfc1-41ff-83d3-aec0b64f2893.jpg',
+      bio: 'Michel combineert technical expertise met strategic thinking.Zijn creatieve business geest staat 24/7 aan. Michel is uiterst klant gericht en met zijn win-win mentaliteit is er toegevoegde waarde voor alle partijen. Een ras echte ondernemer. ',
       specialties: ['Product Strategie', 'Backend Ontwikkeling', 'Database Ontwerp', 'API Architectuur'],
-      experience: '7+ jaar',
+      experience: '25+ jaar',
       location: 'Den Haag, Nederland',
       color: 'green',
       achievements: [
