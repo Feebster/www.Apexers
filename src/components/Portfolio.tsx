@@ -39,7 +39,7 @@ const Portfolio = () => {
       category: 'Maatwerk Ontwikkeling',
       description: 'Op maat gemaakte ontwikkeloplossingen voor grote zakelijke klanten inclusief moderne webapplicaties en systeemintegraties.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Full-Stack Oracle', 'API Integraties','NodeJS','Projecten'],
+      tags: ['Full-Stack Oracle Dev', 'API Integraties','NodeJS','Projecten'],
       link: 'Juva, AS Watson, Cannock, Heerema, Biblion',
       featured: true,
       pageLink: '/services/client-development'
