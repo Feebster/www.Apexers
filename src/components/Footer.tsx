@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Code, Brain, GraduationCap, Cog, ExternalLink, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
@@ -116,12 +117,12 @@ const Footer = () => {
               © {currentYear} Apexers. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">
+              <Link to="/privacy-beleid" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">
                 Privacy Beleid
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">
+              </Link>
+              <Link to="/algemene-voorwaarden" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">
                 Algemene Voorwaarden
-              </a>
+              </Link>
               <div className="text-gray-400 text-sm">
                 Gemaakt met ❤️ in Nederland
               </div>

@@ -12,6 +12,8 @@ import ClientDevelopmentPage from './pages/ClientDevelopmentPage';
 import AISolutionsPage from './pages/AISolutionsPage';
 import EducationalTechPage from './pages/EducationalTechPage';
 import IndustrialSolutionsPage from './pages/IndustrialSolutionsPage';
+import PrivacyBeleidPage from './pages/PrivacyBeleidPage';
+import AlgemeneVoorwaardenPage from './pages/AlgemeneVoorwaardenPage';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
         <Route path="/services/ai-solutions" element={<AISolutionsPage />} />
         <Route path="/services/educational-tech" element={<EducationalTechPage />} />
         <Route path="/services/industrial-solutions" element={<IndustrialSolutionsPage />} />
+        <Route path="/privacy-beleid" element={<PrivacyBeleidPage />} />
+        <Route path="/algemene-voorwaarden" element={<AlgemeneVoorwaardenPage />} />
       </Routes>
     </div>
   );
