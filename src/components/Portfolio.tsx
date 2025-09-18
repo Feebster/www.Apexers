@@ -54,7 +54,7 @@ const Portfolio = () => {
             Ons Portfolio
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Showcasing onze diverse expertise across industries en technologies met real-world impact en measurable results.
+            We laten onze brede expertise zien over verschillende sectoren en technologieën, met tastbare impact en meetbare resultaten.
           </p>
         </div>
 
