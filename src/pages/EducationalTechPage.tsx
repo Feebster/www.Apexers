@@ -108,6 +108,11 @@ const EducationalTechPage = () => {
                 <ExternalLink className="w-4 h-4" />
               </a>
               <a
+                href="https://www.cps.nl/yollen"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full text-white hover:bg-white/20 transition-colors duration-200"
+              >
                 <span className="font-medium">CPS Samenwerking</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
@@ -208,8 +213,7 @@ const EducationalTechPage = () => {
                   <p className="text-gray-600 mb-6 leading-relaxed">{solution.description}</p>
                   
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-3">Key Benefits</h4>
-                  <h4 className="font-semibold text-gray-900 mb-3">Belangrijkste Voordelen</h4>
+                    <h4 className="font-semibold text-gray-900 mb-3">Belangrijkste Voordelen</h4>
                     <ul className="space-y-2">
                       {solution.benefits.map((benefit, idx) => (
                         <li key={idx} className="flex items-center gap-2">
