@@ -14,6 +14,7 @@ import EducationalTechPage from './pages/EducationalTechPage';
 import IndustrialSolutionsPage from './pages/IndustrialSolutionsPage';
 import PrivacyBeleidPage from './pages/PrivacyBeleidPage';
 import AlgemeneVoorwaardenPage from './pages/AlgemeneVoorwaardenPage';
+import TeamPage from './pages/TeamPage';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/services/industrial-solutions" element={<IndustrialSolutionsPage />} />
         <Route path="/privacy-beleid" element={<PrivacyBeleidPage />} />
         <Route path="/algemene-voorwaarden" element={<AlgemeneVoorwaardenPage />} />
+        <Route path="/team" element={<TeamPage />} />
       </Routes>
     </div>
   );

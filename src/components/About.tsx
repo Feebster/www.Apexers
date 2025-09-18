@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Users, Target, Lightbulb, Award } from 'lucide-react';
 
 const About = () => {
@@ -68,6 +69,14 @@ const About = () => {
           </div>
         </div>
       </div>
+        <div className="text-center mt-12">
+          <Link 
+            to="/team"
+            className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
+          >
+            Ontmoet Ons Team
+          </Link>
+        </div>
     </section>
   );
 };

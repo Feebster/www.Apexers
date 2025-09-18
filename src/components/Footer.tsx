@@ -87,6 +87,14 @@ const Footer = () => {
                   </button>
                 </li>
               ))}
+              <li>
+                <Link
+                  to="/team"
+                  className="text-gray-300 hover:text-blue-400 transition-colors duration-300"
+                >
+                  Team
+                </Link>
+              </li>
             </ul>
           </div>
 
