@@ -26,22 +26,22 @@ const Portfolio = () => {
     },
     {
       title: 'PowerWiz AI Platform',
-      category: 'AI & Automation',
-      description: 'Cutting-edge AI agents en chatbot implementations voor e-commerce content creation en customer engagement.',
+      category: 'AI & Automatisering',
+      description: 'Geavanceerde AI agents en chatbot implementaties voor e-commerce content creatie en klantbetrokkenheid.',
       image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['AI', 'Machine Learning', 'E-commerce', 'Automation'],
+      tags: ['AI', 'Machine Learning', 'E-commerce', 'Automatisering'],
       link: 'powerwiz.nl',
-      featured: false,
+      featured: true,
       pageLink: '/services/ai-solutions'
     },
     {
-      title: 'Enterprise Client Development',
-      category: 'Custom Development',
-      description: 'Tailored development solutions voor major enterprise clients inclusief moderne web applications en system integrations.',
+      title: 'Zakelijke Klant Ontwikkeling',
+      category: 'Maatwerk Ontwikkeling',
+      description: 'Op maat gemaakte ontwikkeloplossingen voor grote zakelijke klanten inclusief moderne webapplicaties en systeemintegraties.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Enterprise', 'Full-Stack', 'Integration', 'Custom'],
+      tags: ['Zakelijk', 'Full-Stack', 'Integratie', 'Maatwerk'],
       link: 'Juva, AS Watson, Cannock, Heerema, Biblion',
-      featured: false,
+      featured: true,
       pageLink: '/services/client-development'
     }
   ];
@@ -59,7 +59,7 @@ const Portfolio = () => {
         </div>
 
         {/* Featured Projects */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-12">
+        <div className="grid lg:grid-cols-2 gap-8">
           {projects.filter(project => project.featured).map((project, index) => (
             <div key={index} className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative overflow-hidden">
@@ -105,12 +105,67 @@ const Portfolio = () => {
           ))}
         </div>
 
-        {/* Other Projects */}
-        <div className="grid md:grid-cols-2 gap-6">
+        {/* All Other Projects */}
+        <div className="grid lg:grid-cols-2 gap-8 mt-12">
           {projects.filter(project => !project.featured).map((project, index) => (
-            <div key={index} className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300">
-              <div className="flex">
-                <div className="w-1/3 relative overflow-hidden">
+            <div key={index} className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <div className="relative overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full">
+                  <span className="text-sm font-medium text-gray-700">{project.category}</span>
+                </div>
+              </div>
+              
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                  {project.title}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {project.description}
+                </p>
+                
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.tags.map((tag, idx) => (
+                    <span key={idx} className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                
+                <div className="flex items-center justify-between">
+                  <span className="text-sm text-gray-500">{project.link}</span>
+                  <Link 
+                    to={project.pageLink}
+                    className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold group/btn"
+                  >
+                    Bekijk Project
+                    <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <Link 
+            to="/#services"
+            className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
+          >
+            Bekijk Alle Services
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Portfolio;
                   <img
                     src={project.image}
                     alt={project.title}
