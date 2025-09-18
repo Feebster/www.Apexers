@@ -7,12 +7,12 @@ const Services = () => {
     {
       icon: Code,
       title: 'Client Project Development',
-      description: 'Custom development solutions voor established enterprise clients met proven track records.',
+      description: 'Maatwerk ontwikkeloplossingen voor gevestigde bedrijfsklanten met bewezen resultaten.',
       features: [
-        'Full-stack web development',
-        'Mobile application development',
-        'API integration and development',
-        'Legacy systeem modernization'
+        'Full-stack webontwikkeling',
+        'Mobiele applicatie ontwikkeling',
+        'API integratie en ontwikkeling',
+        'Legacy systeem modernisering'
       ],
       clients: ['Juva', 'AS Watson', 'Cannock', 'Heerema', 'Biblion'],
       color: 'blue'
@@ -20,12 +20,12 @@ const Services = () => {
     {
       icon: Brain,
       title: 'AI Solutions',
-      description: 'Cutting-edge artificial intelligence implementations om business processen te automatiseren en verbeteren.',
+      description: 'Geavanceerde kunstmatige intelligentie implementaties om bedrijfsprocessen te automatiseren en verbeteren.',
       features: [
-        'AI agent development',
-        'Chatbot implementation',
-        'E-commerce content creators',
-        'Machine learning integration'
+        'AI agent ontwikkeling',
+        'Chatbot implementatie',
+        'E-commerce content generatoren',
+        'Machine learning integratie'
       ],
       reference: 'powerwiz.nl',
       color: 'teal'
@@ -33,31 +33,31 @@ const Services = () => {
     {
       icon: GraduationCap,
       title: 'Educational Technology',
-      description: 'Innovative tools en platforms designed om educational experiences en outcomes te verbeteren.',
+      description: 'Innovatieve tools en platforms ontworpen om onderwijservaringen en resultaten te verbeteren.',
       features: [
-        'Collaborative consultation tools',
-        'Assessment en evaluation systemen',
-        'Learning management solutions',
-        'Educational analytics'
+        'Samenwerkende consultatie tools',
+        'Beoordeling en evaluatie systemen',
+        'Leer management oplossingen',
+        'Onderwijs analyses'
       ],
       products: [
-        { name: 'Yollen', url: 'www.yollen.nl', desc: 'Teacher collegial consultation tool' },
-        { name: 'Partnership', url: 'https://www.cps.nl/yollen', desc: 'CPS Partnership' }
+        { name: 'Yollen', url: 'www.yollen.nl', desc: 'Docenten collegiale consultatie tool' },
+        { name: 'Samenwerking', url: 'https://www.cps.nl/yollen', desc: 'CPS Samenwerking' }
       ],
       color: 'green'
     },
     {
       icon: Cog,
       title: 'Industrial Solutions',
-      description: 'Sophisticated management tools voor industrial operations en machine optimization.',
+      description: 'Geavanceerde beheertools voor industriële operaties en machine optimalisatie.',
       features: [
-        'Machine management systemen',
-        'Industrial IoT solutions',
-        'Process optimization tools',
-        'Maintenance scheduling systemen'
+        'Machine beheer systemen',
+        'Industriële IoT oplossingen',
+        'Proces optimalisatie tools',
+        'Onderhoud planning systemen'
       ],
       products: [
-        { name: 'Munova', url: 'munova.nl', desc: 'Machine management platform' }
+        { name: 'Munova', url: 'munova.nl', desc: 'Machine beheer platform' }
       ],
       color: 'orange'
     }
@@ -123,7 +123,7 @@ const Services = () => {
                 </div>
 
                 <div className="mb-6 flex-grow">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Key Capabilities</h4>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Belangrijkste Mogelijkheden</h4>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center gap-2">
@@ -136,7 +136,7 @@ const Services = () => {
 
                 {service.clients && (
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Client Portfolio</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Klanten Portfolio</h4>
                     <div className="flex flex-wrap gap-2">
                       {service.clients.map((client, idx) => (
                         <span key={idx} className="px-3 py-1 bg-white rounded-full text-sm font-medium text-gray-700 border">
@@ -149,7 +149,7 @@ const Services = () => {
 
                 {service.products && (
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Featured Products</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Uitgelichte Producten</h4>
                     <div className="space-y-2">
                       {service.products.map((product, idx) => (
                         <a 
@@ -172,7 +172,7 @@ const Services = () => {
 
                 {service.reference && (
                   <div className="mb-6">
-                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Reference</h4>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3">Referentie</h4>
                     <a 
                       href={`https://${service.reference}`}
                       target="_blank"
