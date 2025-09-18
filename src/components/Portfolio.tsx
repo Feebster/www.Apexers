@@ -29,7 +29,7 @@ const Portfolio = () => {
       category: 'AI & Automatisering',
       description: 'Geavanceerde AI agents en chatbot implementaties voor e-commerce content creatie en klantbetrokkenheid.',
       image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['AI', 'Machine Learning', 'E-commerce', 'Automatisering'],
+      tags: ['AI productenhancement', 'Woocommerce Plugin', 'Wordpress', 'E-commerce'],
       link: 'powerwiz.nl',
       featured: true,
       pageLink: '/services/ai-solutions'
