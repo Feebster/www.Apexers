@@ -17,7 +17,7 @@ import AlgemeneVoorwaardenPage from './pages/AlgemeneVoorwaardenPage';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Routes>
         <Route path="/" element={
           <>

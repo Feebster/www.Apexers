@@ -10,12 +10,20 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 via-blue-700 to-teal-600 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center hero-gradient overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
         }}></div>
+      </div>
+
+      {/* Floating Tech Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="floating-element absolute top-20 left-10 w-4 h-4 bg-white/10 rounded-full"></div>
+        <div className="floating-element absolute top-40 right-20 w-6 h-6 bg-teal-300/20 rounded-full"></div>
+        <div className="floating-element absolute bottom-40 left-20 w-3 h-3 bg-blue-200/20 rounded-full"></div>
+        <div className="floating-element absolute bottom-20 right-10 w-5 h-5 bg-white/10 rounded-full"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
