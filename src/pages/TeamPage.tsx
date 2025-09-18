@@ -86,19 +86,30 @@ const TeamPage = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-gray-900 via-blue-900 to-teal-900">
+      <section className="pt-20 pb-16 bg-gradient-to-br from-gray-900 via-blue-900 to-teal-900 relative overflow-hidden">
+        {/* Subtle Background Image */}
+        <div 
+          className="absolute inset-0 opacity-10 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: 'url(https://www.apexers.nl/images/77f53868-59dd-42a3-81fa-ff033ddba051.jpg)'
+          }}
+        ></div>
+        
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/80 via-blue-900/80 to-teal-900/80"></div>
+        
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 mb-8">
             <Link 
               to="/"
-              className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors duration-200"
+              className="flex items-center gap-2 text-blue-200 hover:text-white transition-colors duration-200 relative z-10"
             >
               <ArrowLeft className="w-5 h-5" />
               Terug naar Home
             </Link>
           </div>
           
-          <div className="max-w-4xl">
+          <div className="max-w-4xl relative z-10">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-16 h-16 bg-white/20 rounded-xl flex items-center justify-center">
                 <Users className="w-8 h-8 text-white" />
