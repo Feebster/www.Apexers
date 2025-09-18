@@ -27,7 +27,7 @@ const TeamPage = () => {
       name: 'Kosse',
       role: 'De data expert',
       image: 'https://www.apexers.nl/images/aa7315ee-13a8-45b2-a5db-b4785be0c0e2.jpg',
-      bio: 'Kosse is onze AI expert die cutting-edge artificial intelligence solutions ontwikkelt. Hij transformeert complexe business challenges naar intelligente, geautomatiseerde oplossingen.',
+      bio: 'De meest vriendelijke rustige man met wie je wenst te mogen samen werken, op wie je altijd kunt vertrouwen. Een steen in het vertalen van business processen tot een data model, de ​fundering voor elke verdere digitale stappen.',
       specialties: ['Kunstmatige Intelligentie', 'Machine Learning', 'Data Wetenschap', 'Automatisering'],
       experience: '25+ jaar',
       location: 'Amsterdam, Nederland',
