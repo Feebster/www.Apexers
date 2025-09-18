@@ -9,7 +9,7 @@ const Portfolio = () => {
       category: 'Educational Technology',
       description: 'Een comprehensive teacher collegial consultation tool die professional development en collaborative learning tussen educators faciliteert.',
       image: 'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'Node.js', 'EdTech', 'Collaboration'],
+      tags: ['Oracle databases', 'Apex', 'EdTech', 'Collaboration'],
       link: 'www.yollen.nl',
       featured: true,
       pageLink: '/services/educational-tech'
@@ -19,7 +19,7 @@ const Portfolio = () => {
       category: 'Industrial Solutions',
       description: 'Advanced machine management platform designed om industrial operations en maintenance scheduling te optimaliseren.',
       image: 'https://images.pexels.com/photos/3785935/pexels-photo-3785935.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['IoT', 'Machine Learning', 'Industrial', 'Analytics'],
+      tags: ['React', 'Node.js', 'IoT', 'Machine Learning', 'Industrial', 'Analytics'],
       link: 'munova.nl',
       featured: true,
       pageLink: '/services/industrial-solutions'
