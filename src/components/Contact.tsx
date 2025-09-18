@@ -112,11 +112,11 @@ const Contact = () => {
               <h4 className="text-xl font-bold text-gray-900 mb-4">Waarom Met Ons Werken?</h4>
               <ul className="space-y-3">
                 {[
-                  'Expert team met proven track record',
-                  'Tailored solutions voor jouw specific needs',
-                  'Agile development methodology',
-                  'Ongoing support en maintenance',
-                  'Competitive pricing en transparent communication'
+                   'Expertteam met een bewezen staat van dienst', 
+                   'Oplossingen op maat voor jouw specifieke behoeften', 
+                   'Agile ontwikkelmethode', 
+                   'Voortdurende support en onderhoud', 
+                   'Concurrerende prijzen en transparante communicatie' 
                 ].map((benefit, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
