@@ -210,7 +210,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 resize-none"
-                    placeholder="Vertel ons over jouw project, goals, timeline en eventuele specific requirements..."
+                    placeholder="Vertel ons over jouw project, doelen, planning en eventuele specifieke wensen..."
                   ></textarea>
                 </div>
 
