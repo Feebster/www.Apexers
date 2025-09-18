@@ -76,8 +76,8 @@ const AISolutionsPage = () => {
             </div>
             
             <p className="text-xl text-teal-100 leading-relaxed mb-8">
-              Cutting-edge artificial intelligence implementations that automate processes, 
-              enhance customer experiences, and drive business innovation through intelligent automation.
+              Cutting-edge artificial intelligence implementations die processes automatiseren, 
+              customer experiences verbeteren en business innovation driven door intelligent automation.
             </p>
             
             <div className="flex items-center gap-4 mb-8">
@@ -99,9 +99,9 @@ const AISolutionsPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Our AI Solutions</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze AI Solutions</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive AI implementations tailored to your business needs
+              Comprehensive AI implementations tailored naar jouw business needs
             </p>
           </div>
 
@@ -171,7 +171,7 @@ const AISolutionsPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Proven Results</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Measurable impact across all our AI implementations
+              Meetbare impact across alle onze AI implementations
             </p>
           </div>
 
@@ -198,7 +198,7 @@ const AISolutionsPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">AI Technologies</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Leveraging the latest in artificial intelligence and machine learning
+              Leveraging de latest in artificial intelligence en machine learning
             </p>
           </div>
 
@@ -219,10 +219,10 @@ const AISolutionsPage = () => {
       <section className="py-20 bg-teal-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            See Our AI Solutions in Action
+            Zie Onze AI Solutions in Action
           </h2>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Visit PowerWiz to experience our AI-powered e-commerce content creation tools firsthand.
+            Bezoek PowerWiz om onze AI-powered e-commerce content creation tools firsthand te ervaren.
           </p>
           <a
             href="https://powerwiz.nl"
@@ -230,7 +230,7 @@ const AISolutionsPage = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition-colors duration-300"
           >
-            Visit PowerWiz.nl
+            Bezoek PowerWiz.nl
             <ExternalLink className="w-5 h-5" />
           </a>
         </div>
@@ -240,23 +240,23 @@ const AISolutionsPage = () => {
       <section className="py-20 bg-teal-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Implement AI Solutions?
+            Ready om AI Solutions te Implementeren?
           </h2>
           <p className="text-xl text-teal-100 mb-8 leading-relaxed">
-            Let's explore how artificial intelligence can transform your business operations and customer experience.
+            Laten we exploreren hoe artificial intelligence jouw business operations en customer experience kan transformeren.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/#contact"
               className="px-8 py-4 bg-white text-teal-600 rounded-lg font-semibold hover:bg-teal-50 transition-colors duration-300"
             >
-              Discuss AI Solutions
+              Bespreek AI Solutions
             </Link>
             <Link
               to="/#portfolio"
               className="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-teal-600 transition-colors duration-300"
             >
-              View AI Projects
+              Bekijk AI Projecten
             </Link>
           </div>
         </div>

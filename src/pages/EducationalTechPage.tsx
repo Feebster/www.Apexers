@@ -88,13 +88,13 @@ const EducationalTechPage = () => {
                 <GraduationCap className="w-8 h-8 text-white" />
               </div>
               <h1 className="text-4xl md:text-6xl font-bold text-white">
-                Educational Technology
+                Educational Tech
               </h1>
             </div>
             
             <p className="text-xl text-green-100 leading-relaxed mb-8">
-              Innovative tools and platforms designed to enhance educational experiences, 
-              facilitate professional development, and improve learning outcomes for educators and students.
+              Innovative tools en platforms designed om educational experiences te verbeteren, 
+              professional development te faciliteren en learning outcomes voor educators en students te optimaliseren.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -127,7 +127,7 @@ const EducationalTechPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Featured Product: Yollen</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our flagship educational platform transforming teacher collaboration and professional development
+              Ons flagship educational platform dat teacher collaboration en professional development transformeert
             </p>
           </div>
 
@@ -145,8 +145,8 @@ const EducationalTechPage = () => {
                 Teacher Collegial Consultation Tool
               </h3>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Yollen facilitates professional development and collaborative learning among educators, 
-                providing a comprehensive platform for peer consultation and knowledge sharing.
+                Yollen faciliteert professional development en collaborative learning tussen educators, 
+                met een comprehensive platform voor peer consultation en knowledge sharing.
               </p>
 
               <div className="mb-8">
@@ -163,7 +163,7 @@ const EducationalTechPage = () => {
 
               <div className="bg-green-50 p-6 rounded-xl mb-8">
                 <h4 className="font-semibold text-green-800 mb-2">Impact</h4>
-                <p className="text-green-700">{products[0].impact}</p>
+                <p className="text-green-700">Gebruikt door 500+ educators across Nederland</p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -195,9 +195,9 @@ const EducationalTechPage = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Educational Solutions</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze Educational Solutions</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive technology solutions designed for modern educational environments
+              Comprehensive technology solutions designed voor moderne educational environments
             </p>
           </div>
 
@@ -236,7 +236,7 @@ const EducationalTechPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Proven Impact</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Measurable results across our educational technology implementations
+              Meetbare resultaten across onze educational technology implementations
             </p>
           </div>
 
@@ -264,7 +264,7 @@ const EducationalTechPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Educational Technologies</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Modern technologies powering our educational platforms
+              Moderne technologies die onze educational platforms poweren
             </p>
           </div>
 
@@ -285,11 +285,11 @@ const EducationalTechPage = () => {
       <section className="py-20 bg-green-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            Strategic Partnership with CPS
+            Strategic Partnership met CPS
           </h2>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Our collaboration with CPS has enabled us to reach more educators and expand 
-            the impact of our educational technology solutions across the Netherlands.
+            Onze collaboration met CPS heeft ons enabled om meer educators te bereiken en 
+            de impact van onze educational technology solutions across Nederland te expanderen.
           </p>
           <a
             href="https://www.cps.nl/yollen"
@@ -297,7 +297,7 @@ const EducationalTechPage = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors duration-300"
           >
-            Learn About Our Partnership
+            Meer Over Onze Partnership
             <ExternalLink className="w-5 h-5" />
           </a>
         </div>
@@ -307,24 +307,24 @@ const EducationalTechPage = () => {
       <section className="py-20 bg-green-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Transform Education?
+            Ready om Education te Transformeren?
           </h2>
           <p className="text-xl text-green-100 mb-8 leading-relaxed">
-            Let's discuss how our educational technology solutions can enhance learning 
-            experiences and improve educational outcomes in your organization.
+            Laten we bespreken hoe onze educational technology solutions learning 
+            experiences kunnen verbeteren en educational outcomes in jouw organisatie kunnen optimaliseren.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/#contact"
               className="px-8 py-4 bg-white text-green-600 rounded-lg font-semibold hover:bg-green-50 transition-colors duration-300"
             >
-              Discuss Educational Solutions
+              Bespreek Educational Solutions
             </Link>
             <Link
               to="/#portfolio"
               className="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors duration-300"
             >
-              View Educational Projects
+              Bekijk Educational Projecten
             </Link>
           </div>
         </div>

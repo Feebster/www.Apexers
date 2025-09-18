@@ -106,8 +106,8 @@ const IndustrialSolutionsPage = () => {
             </div>
             
             <p className="text-xl text-orange-100 leading-relaxed mb-8">
-              Sophisticated management tools and systems designed for industrial operations, 
-              machine optimization, and process automation that drive operational excellence and efficiency.
+              Sophisticated management tools en systems designed voor industrial operations, 
+              machine optimization en process automation die operational excellence en efficiency driven.
             </p>
             
             <div className="flex items-center gap-4 mb-8">
@@ -131,7 +131,7 @@ const IndustrialSolutionsPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Featured Product: Munova</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our flagship machine management platform transforming industrial operations
+              Ons flagship machine management platform dat industrial operations transformeert
             </p>
           </div>
 
@@ -141,9 +141,9 @@ const IndustrialSolutionsPage = () => {
                 Advanced Machine Management Platform
               </h3>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Munova provides comprehensive machine management capabilities, enabling industrial 
-                organizations to optimize their operations, reduce downtime, and improve overall efficiency 
-                through intelligent monitoring and predictive maintenance.
+                Munova biedt comprehensive machine management capabilities, waardoor industrial 
+                organisaties hun operations kunnen optimaliseren, downtime reduceren en overall efficiency 
+                verbeteren door intelligent monitoring en predictive maintenance.
               </p>
 
               <div className="mb-8">
@@ -166,8 +166,8 @@ const IndustrialSolutionsPage = () => {
               <div className="bg-orange-50 p-6 rounded-xl mb-8">
                 <h4 className="font-semibold text-orange-800 mb-2">Industry Impact</h4>
                 <p className="text-orange-700">
-                  Deployed across multiple industrial facilities, resulting in significant 
-                  improvements in operational efficiency and maintenance cost reduction.
+                  Deployed across meerdere industrial facilities, met significante 
+                  verbeteringen in operational efficiency en maintenance cost reductie.
                 </p>
               </div>
 
@@ -254,9 +254,9 @@ const IndustrialSolutionsPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Industrial Solutions</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze Industrial Solutions</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive technology solutions for modern industrial environments
+              Comprehensive technology solutions voor moderne industrial environments
             </p>
           </div>
 
@@ -326,7 +326,7 @@ const IndustrialSolutionsPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Advanced Features</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Cutting-edge capabilities that set our industrial solutions apart
+              Cutting-edge capabilities die onze industrial solutions onderscheiden
             </p>
           </div>
 
@@ -347,7 +347,7 @@ const IndustrialSolutionsPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Proven Results</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Measurable impact across industrial implementations
+              Meetbare impact across industrial implementations
             </p>
           </div>
 
@@ -375,7 +375,7 @@ const IndustrialSolutionsPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Industrial Technologies</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Advanced technologies powering our industrial solutions
+              Advanced technologies die onze industrial solutions poweren
             </p>
           </div>
 
@@ -396,24 +396,24 @@ const IndustrialSolutionsPage = () => {
       <section className="py-20 bg-orange-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Optimize Your Industrial Operations?
+            Ready om Jouw Industrial Operations te Optimaliseren?
           </h2>
           <p className="text-xl text-orange-100 mb-8 leading-relaxed">
-            Let's discuss how our industrial solutions can transform your operations, 
-            reduce costs, and improve efficiency across your organization.
+            Laten we bespreken hoe onze industrial solutions jouw operations kunnen transformeren, 
+            costs reduceren en efficiency verbeteren across jouw organisatie.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/#contact"
               className="px-8 py-4 bg-white text-orange-600 rounded-lg font-semibold hover:bg-orange-50 transition-colors duration-300"
             >
-              Discuss Industrial Solutions
+              Bespreek Industrial Solutions
             </Link>
             <Link
               to="/#portfolio"
               className="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-orange-600 transition-colors duration-300"
             >
-              View Industrial Projects
+              Bekijk Industrial Projecten
             </Link>
           </div>
         </div>
