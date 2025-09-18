@@ -53,11 +53,11 @@ const About = () => {
             <h4 className="text-2xl font-bold text-gray-900 mb-6">Waarom Kiezen voor Apexers?</h4>
             <ul className="space-y-4">
               {[
-                'Expert team met diverse technical skills',
-                'Proven track record bij established clients',
-                'Innovation-driven approach voor problem solving',
-                'Full-stack development capabilities',
-                'Agile en responsive project management'
+                'Expertteam met diverse technische skills',
+                'Bewezen track record bij toonaangevende klanten',
+                'Innovatiegedreven aanpak voor probleemoplossing',
+                'Full-stack developmentcapaciteiten',
+                'Agile en flexibel projectmanagement'
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-blue-600 rounded-full mt-3 flex-shrink-0"></div>
