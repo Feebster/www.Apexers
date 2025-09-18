@@ -20,6 +20,14 @@ interface ChatbotResponse {
   response: string;
   threadId: string;
 }
+
+const quickActions = [
+  "Wat doet Apexers?",
+  "Beschikbaarheid team",
+  "Afspraak inplannen",
+  "Contact informatie"
+];
+
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
@@ -237,6 +245,20 @@ const Chatbot = () => {
                         }`}
                       >
                         <p className="text-sm leading-relaxed">{message.text}</p>
+                        <p className="text-xs mt-1 opacity-70">{formatTime(message.timestamp)}</p>
+                      </div>
+
+                      {message.sender === 'user' && (
+                        <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0">
+                          <User className="w-4 h-4 text-gray-600" />
+                        </div>
+                      )}
+                    </div>
+                  ))}
+
+                  {isTyping && (
+                    <div className="flex gap-3 justify-start">
+                      <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
                         <Bot className="w-4 h-4 text-blue-600" />
                       </div>
                       <div className="bg-white text-gray-800 rounded-2xl rounded-bl-md shadow-sm border px-4 py-2">
@@ -249,7 +271,6 @@ const Chatbot = () => {
                     </div>
                   )}
                 </div>
-                  autoFocus
                 <div ref={messagesEndRef} />
               </div>
 
