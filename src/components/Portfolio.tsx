@@ -7,7 +7,7 @@ const Portfolio = () => {
     {
       title: 'Yollen Educational Platform',
       category: 'Educational Technology',
-      description: 'Een comprehensive teacher collegial consultation tool die professional development en collaborative learning tussen educators faciliteert.',
+      description: 'Een complete tool voor collegiale consultatie die professionele ontwikkeling en samenwerkend leren tussen docenten faciliteert.',
       image: 'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['Oracle databases', 'Apex', 'Business Intelligence', 'Collaboration'],
       link: 'www.yollen.nl',
