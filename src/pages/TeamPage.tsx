@@ -89,7 +89,7 @@ const TeamPage = () => {
       <section className="pt-20 pb-16 bg-gradient-to-br from-gray-900 via-blue-900 to-teal-900 relative overflow-hidden">
         {/* Subtle Background Image */}
         <div 
-          className="absolute inset-0 opacity-10 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 opacity-50 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: 'url(https://www.apexers.nl/images/77f53868-59dd-42a3-81fa-ff033ddba051.jpg)'
           }}
