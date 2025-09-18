@@ -17,7 +17,8 @@ const About = () => {
             Over Apexers
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Wij zijn een dynamisch team van drie ervaren developers, gespecialiseerd in het creëren van innovatieve technologische oplossingen die groei en efficiëntie voor bedrijven stimuleren.
+            Wij zijn een dynamisch team van drie ervaren developers, gespecialiseerd in het creëren van innovatieve 
+            technologische oplossingen die groei en efficiëntie voor bedrijven stimuleren.
           </p>
         </div>
 
