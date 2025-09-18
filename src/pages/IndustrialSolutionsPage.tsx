@@ -9,24 +9,24 @@ const IndustrialSolutionsPage = () => {
   const solutions = [
     {
       icon: Settings,
-      title: 'Machine Management Systems',
-      description: 'Comprehensive platforms for monitoring, controlling, and optimizing industrial machinery and equipment.',
-      features: ['Real-time monitoring', 'Predictive maintenance', 'Performance analytics', 'Remote control capabilities'],
-      benefits: ['Reduced downtime', 'Lower maintenance costs', 'Improved efficiency', 'Better resource utilization']
+      title: 'Machine Beheersystemen',
+      description: 'Uitgebreide platforms voor monitoring, controle en optimalisatie van industriële machines en apparatuur.',
+      features: ['Real-time monitoring', 'Voorspellend onderhoud', 'Prestatie analyses', 'Afstandsbediening mogelijkheden'],
+      benefits: ['Verminderde stilstand', 'Lagere onderhoudskosten', 'Verbeterde efficiëntie', 'Beter gebruik van middelen']
     },
     {
       icon: BarChart3,
-      title: 'Industrial IoT Solutions',
-      description: 'Connected systems that gather data from industrial equipment to provide insights and automation.',
-      features: ['Sensor integration', 'Data collection', 'Cloud connectivity', 'Real-time dashboards'],
-      benefits: ['Data-driven decisions', 'Process optimization', 'Cost reduction', 'Quality improvement']
+      title: 'Industriële IoT Oplossingen',
+      description: 'Verbonden systemen die data verzamelen van industriële apparatuur om inzichten en automatisering te bieden.',
+      features: ['Sensor integratie', 'Data verzameling', 'Cloud connectiviteit', 'Real-time dashboards'],
+      benefits: ['Data-gedreven beslissingen', 'Proces optimalisatie', 'Kostenreductie', 'Kwaliteitsverbetering']
     },
     {
       icon: Wrench,
-      title: 'Process Optimization Tools',
-      description: 'Advanced analytics and automation tools designed to streamline industrial processes and workflows.',
-      features: ['Workflow automation', 'Process analytics', 'Quality control', 'Resource planning'],
-      benefits: ['Increased productivity', 'Quality assurance', 'Waste reduction', 'Operational excellence']
+      title: 'Proces Optimalisatie Tools',
+      description: 'Geavanceerde analyse en automatisering tools ontworpen om industriële processen en workflows te stroomlijnen.',
+      features: ['Workflow automatisering', 'Proces analyses', 'Kwaliteitscontrole', 'Resource planning'],
+      benefits: ['Verhoogde productiviteit', 'Kwaliteitsborging', 'Afval reductie', 'Operationele excellentie']
     }
   ];
 
@@ -34,47 +34,47 @@ const IndustrialSolutionsPage = () => {
     {
       icon: TrendingUp,
       number: '35%',
-      label: 'Efficiency Increase',
-      description: 'Average improvement in operational efficiency'
+      label: 'Efficiëntie Toename',
+      description: 'Gemiddelde verbetering in operationele efficiëntie'
     },
     {
       icon: Clock,
       number: '60%',
-      label: 'Downtime Reduction',
-      description: 'Decrease in unplanned maintenance downtime'
+      label: 'Stilstand Reductie',
+      description: 'Afname in ongeplande onderhoud stilstand'
     },
     {
       icon: Shield,
       number: '99.9%',
-      label: 'System Reliability',
-      description: 'Uptime across all deployed systems'
+      label: 'Systeem Betrouwbaarheid',
+      description: 'Uptime over alle uitgerold systemen'
     }
   ];
 
   const features = [
     {
-      title: 'Predictive Maintenance',
-      description: 'AI-powered algorithms that predict equipment failures before they occur, reducing costly downtime.'
+      title: 'Voorspellend Onderhoud',
+      description: 'AI-aangedreven algoritmes die apparatuur storingen voorspellen voordat ze optreden, waardoor kostbare stilstand wordt verminderd.'
     },
     {
       title: 'Real-time Monitoring',
-      description: 'Continuous monitoring of industrial processes with instant alerts and notifications.'
+      description: 'Continue monitoring van industriële processen met directe waarschuwingen en meldingen.'
     },
     {
-      title: 'Data Analytics',
-      description: 'Advanced analytics that turn machine data into actionable insights for better decision-making.'
+      title: 'Data Analyses',
+      description: 'Geavanceerde analyses die machine data omzetten in bruikbare inzichten voor betere besluitvorming.'
     },
     {
-      title: 'Remote Management',
-      description: 'Secure remote access and control capabilities for managing industrial systems from anywhere.'
+      title: 'Afstandsbeheer',
+      description: 'Veilige externe toegang en controle mogelijkheden voor het beheren van industriële systemen vanaf elke locatie.'
     },
     {
-      title: 'Integration Capabilities',
-      description: 'Seamless integration with existing industrial systems and enterprise software.'
+      title: 'Integratie Mogelijkheden',
+      description: 'Naadloze integratie met bestaande industriële systemen en bedrijfssoftware.'
     },
     {
-      title: 'Scalable Architecture',
-      description: 'Solutions that grow with your business, from single machines to entire production facilities.'
+      title: 'Schaalbare Architectuur',
+      description: 'Oplossingen die meegroeien met jouw bedrijf, van enkele machines tot complete productiefaciliteiten.'
     }
   ];
 
@@ -91,7 +91,7 @@ const IndustrialSolutionsPage = () => {
               className="flex items-center gap-2 text-orange-200 hover:text-white transition-colors duration-200"
             >
               <ArrowLeft className="w-5 h-5" />
-              Back to Home
+              Terug naar Home
             </Link>
           </div>
           
@@ -101,13 +101,13 @@ const IndustrialSolutionsPage = () => {
                 <Cog className="w-8 h-8 text-white" />
               </div>
               <h1 className="text-4xl md:text-6xl font-bold text-white">
-                Industrial Solutions
+                Industriële Oplossingen
               </h1>
             </div>
             
             <p className="text-xl text-orange-100 leading-relaxed mb-8">
-              Sophisticated management tools en systems designed voor industrial operations, 
-              machine optimization en process automation die operational excellence en efficiency driven.
+              Geavanceerde beheertools en systemen ontworpen voor industriële operaties, 
+              machine optimalisatie en procesautomatisering die operationele excellentie en efficiëntie stimuleren.
             </p>
             
             <div className="flex items-center gap-4 mb-8">
@@ -129,31 +129,31 @@ const IndustrialSolutionsPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Featured Product: Munova</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Uitgelicht Product: Munova</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ons flagship machine management platform dat industrial operations transformeert
+              Ons vlaggenschip machine beheerplatform dat industriële operaties transformeert
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                Advanced Machine Management Platform
+                Geavanceerd Machine Beheer Platform
               </h3>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Munova biedt comprehensive machine management capabilities, waardoor industrial 
-                organisaties hun operations kunnen optimaliseren, downtime reduceren en overall efficiency 
-                verbeteren door intelligent monitoring en predictive maintenance.
+                Munova biedt uitgebreide machine beheermogelijkheden, waardoor industriële 
+                organisaties hun operaties kunnen optimaliseren, stilstand reduceren en algehele efficiëntie 
+                verbeteren door intelligente monitoring en voorspellend onderhoud.
               </p>
 
               <div className="mb-8">
-                <h4 className="font-semibold text-gray-900 mb-4">Core Capabilities</h4>
+                <h4 className="font-semibold text-gray-900 mb-4">Kern Mogelijkheden</h4>
                 <ul className="space-y-3">
                   {[
-                    'Real-time machine monitoring and control',
-                    'Predictive maintenance scheduling',
-                    'Performance analytics and reporting',
-                    'Integration with existing industrial systems'
+                    'Real-time machine monitoring en controle',
+                    'Voorspellend onderhoud planning',
+                    'Prestatie analyses en rapportage',
+                    'Integratie met bestaande industriële systemen'
                   ].map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-orange-600 rounded-full"></div>
@@ -164,10 +164,10 @@ const IndustrialSolutionsPage = () => {
               </div>
 
               <div className="bg-orange-50 p-6 rounded-xl mb-8">
-                <h4 className="font-semibold text-orange-800 mb-2">Industry Impact</h4>
+                <h4 className="font-semibold text-orange-800 mb-2">Industrie Impact</h4>
                 <p className="text-orange-700">
-                  Deployed across meerdere industrial facilities, met significante 
-                  verbeteringen in operational efficiency en maintenance cost reductie.
+                  Uitgerold over meerdere industriële faciliteiten, met significante 
+                  verbeteringen in operationele efficiëntie en onderhoudskosten reductie.
                 </p>
               </div>
 
@@ -177,7 +177,7 @@ const IndustrialSolutionsPage = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-orange-600 text-white rounded-lg font-semibold hover:bg-orange-700 transition-colors duration-300"
               >
-                Visit Munova.nl
+                Bezoek Munova.nl
                 <ExternalLink className="w-5 h-5" />
               </a>
             </div>
@@ -197,9 +197,9 @@ const IndustrialSolutionsPage = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Client Portfolio</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Klanten Portfolio</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Vertrouwd door leading organisaties in de industrial sector
+              Vertrouwd door toonaangevende organisaties in de industriële sector
             </p>
           </div>
 
@@ -208,7 +208,7 @@ const IndustrialSolutionsPage = () => {
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">Klaasquartel</h3>
-                  <p className="text-gray-600">Industrial equipment en machinery solutions</p>
+                  <p className="text-gray-600">Industriële apparatuur en machine oplossingen</p>
                 </div>
                 <a 
                   href="https://klaasquartel.nl"
@@ -220,9 +220,9 @@ const IndustrialSolutionsPage = () => {
               </div>
 
               <div className="mb-6">
-                <h4 className="font-semibold text-gray-900 mb-3">Services Provided</h4>
+                <h4 className="font-semibold text-gray-900 mb-3">Geleverde Diensten</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['Machine management systemen', 'Process optimization', 'Industrial IoT integration', 'Maintenance scheduling'].map((service, idx) => (
+                  {['Machine beheersystemen', 'Proces optimalisatie', 'Industriële IoT integratie', 'Onderhoud planning'].map((service, idx) => (
                     <span key={idx} className="px-3 py-1 bg-orange-50 text-orange-600 rounded-full text-sm font-medium">
                       {service}
                     </span>
@@ -232,18 +232,18 @@ const IndustrialSolutionsPage = () => {
 
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div>
-                  <h5 className="font-semibold text-gray-900 mb-1">Project Duration</h5>
+                  <h5 className="font-semibold text-gray-900 mb-1">Project Duur</h5>
                   <p className="text-gray-600">12 maanden</p>
                 </div>
                 <div>
-                  <h5 className="font-semibold text-gray-900 mb-1">Key Results</h5>
-                  <p className="text-green-600 font-medium">40% efficiency verbetering in machine operations</p>
+                  <h5 className="font-semibold text-gray-900 mb-1">Belangrijkste Resultaten</h5>
+                  <p className="text-green-600 font-medium">40% efficiëntie verbetering in machine operaties</p>
                 </div>
               </div>
 
               <div className="flex items-center gap-2 text-green-600">
                 <CheckCircle className="w-5 h-5" />
-                <span className="font-medium">Project Successfully Completed</span>
+                <span className="font-medium">Project Succesvol Afgerond</span>
               </div>
             </div>
           </div>
@@ -254,9 +254,9 @@ const IndustrialSolutionsPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze Industrial Solutions</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze Industriële Oplossingen</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive technology solutions voor moderne industrial environments
+              Uitgebreide technologie oplossingen voor moderne industriële omgevingen
             </p>
           </div>
 
@@ -281,7 +281,7 @@ const IndustrialSolutionsPage = () => {
 
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
-                        <h4 className="font-semibold text-gray-900 mb-3">Key Features</h4>
+                        <h4 className="font-semibold text-gray-900 mb-3">Belangrijkste Functies</h4>
                         <ul className="space-y-2">
                           {solution.features.map((feature, idx) => (
                             <li key={idx} className="flex items-center gap-2">
@@ -293,7 +293,7 @@ const IndustrialSolutionsPage = () => {
                       </div>
                       
                       <div>
-                        <h4 className="font-semibold text-gray-900 mb-3">Business Benefits</h4>
+                        <h4 className="font-semibold text-gray-900 mb-3">Bedrijfsvoordelen</h4>
                         <ul className="space-y-2">
                           {solution.benefits.map((benefit, idx) => (
                             <li key={idx} className="flex items-center gap-2">
@@ -324,9 +324,9 @@ const IndustrialSolutionsPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Advanced Features</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Geavanceerde Functies</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Cutting-edge capabilities die onze industrial solutions onderscheiden
+              Geavanceerde mogelijkheden die onze industriële oplossingen onderscheiden
             </p>
           </div>
 
@@ -345,9 +345,9 @@ const IndustrialSolutionsPage = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Proven Results</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Bewezen Resultaten</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meetbare impact across industrial implementations
+              Meetbare impact van industriële implementaties
             </p>
           </div>
 
@@ -373,9 +373,9 @@ const IndustrialSolutionsPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Industrial Technologies</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Industriële Technologieën</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Advanced technologies die onze industrial solutions poweren
+              Geavanceerde technologieën die onze industriële oplossingen aandrijven
             </p>
           </div>
 
@@ -396,24 +396,24 @@ const IndustrialSolutionsPage = () => {
       <section className="py-20 bg-orange-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready om Jouw Industrial Operations te Optimaliseren?
+            Klaar om Jouw Industriële Operaties te Optimaliseren?
           </h2>
           <p className="text-xl text-orange-100 mb-8 leading-relaxed">
-            Laten we bespreken hoe onze industrial solutions jouw operations kunnen transformeren, 
-            costs reduceren en efficiency verbeteren across jouw organisatie.
+            Laten we bespreken hoe onze industriële oplossingen jouw operaties kunnen transformeren, 
+            kosten reduceren en efficiëntie verbeteren in jouw organisatie.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/#contact"
               className="px-8 py-4 bg-white text-orange-600 rounded-lg font-semibold hover:bg-orange-50 transition-colors duration-300"
             >
-              Bespreek Industrial Solutions
+              Bespreek Industriële Oplossingen
             </Link>
             <Link
               to="/#portfolio"
               className="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-orange-600 transition-colors duration-300"
             >
-              Bekijk Industrial Projecten
+              Bekijk Industriële Projecten
             </Link>
           </div>
         </div>

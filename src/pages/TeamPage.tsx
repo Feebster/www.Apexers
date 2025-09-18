@@ -12,15 +12,15 @@ const TeamPage = () => {
       role: 'Lead Developer & Co-Founder',
       image: 'https://apexers.nl/wp-content/uploads/2024/01/dimitri-apexers-400x400.jpg',
       bio: 'Dimitri is een ervaren full-stack developer met een passie voor innovative solutions en clean code. Hij leidt onze development teams en zorgt voor de technical excellence van alle projecten.',
-      specialties: ['Full-Stack Development', 'System Architecture', 'Team Leadership', 'Code Review'],
+      specialties: ['Full-Stack Ontwikkeling', 'Systeem Architectuur', 'Team Leiderschap', 'Code Beoordeling'],
       experience: '8+ jaar',
       location: 'Leiden, Nederland',
       color: 'blue',
       achievements: [
-        'Lead developer bij 15+ enterprise projecten',
+        'Hoofdontwikkelaar bij 15+ bedrijfsprojecten',
         'Expert in React, Node.js en cloud architectures',
-        'Mentor voor junior developers',
-        'Speaker op tech conferences'
+        'Mentor voor junior ontwikkelaars',
+        'Spreker op technische conferenties'
       ]
     },
     {
@@ -28,15 +28,15 @@ const TeamPage = () => {
       role: 'AI Specialist & Innovation Lead',
       image: 'https://apexers.nl/wp-content/uploads/2024/01/kosse-apexers-400x400.jpg',
       bio: 'Kosse is onze AI expert die cutting-edge artificial intelligence solutions ontwikkelt. Hij transformeert complexe business challenges naar intelligente, geautomatiseerde oplossingen.',
-      specialties: ['Artificial Intelligence', 'Machine Learning', 'Data Science', 'Automation'],
+      specialties: ['Kunstmatige Intelligentie', 'Machine Learning', 'Data Wetenschap', 'Automatisering'],
       experience: '6+ jaar',
       location: 'Amsterdam, Nederland',
       color: 'teal',
       achievements: [
-        'AI solutions voor 10+ bedrijven geïmplementeerd',
+        'AI oplossingen voor 10+ bedrijven geïmplementeerd',
         'Expert in OpenAI, TensorFlow en PyTorch',
         'Ontwikkelaar van PowerWiz AI platform',
-        'Research in advanced ML algorithms'
+        'Onderzoek naar geavanceerde ML algoritmes'
       ]
     },
     {
@@ -44,15 +44,15 @@ const TeamPage = () => {
       role: 'Senior Developer & Product Strategist',
       image: 'https://apexers.nl/wp-content/uploads/2024/01/michel-apexers-400x400.jpg',
       bio: 'Michel combineert technical expertise met strategic thinking. Hij zorgt ervoor dat onze solutions niet alleen technisch excellent zijn, maar ook perfect aansluiten bij business objectives.',
-      specialties: ['Product Strategy', 'Backend Development', 'Database Design', 'API Architecture'],
+      specialties: ['Product Strategie', 'Backend Ontwikkeling', 'Database Ontwerp', 'API Architectuur'],
       experience: '7+ jaar',
       location: 'Den Haag, Nederland',
       color: 'green',
       achievements: [
-        'Product strategist voor Yollen en Munova',
-        'Expert in database optimization en API design',
-        'Architect van scalable backend systems',
-        'Specialist in educational technology'
+        'Product strateeg voor Yollen en Munova',
+        'Expert in database optimalisatie en API ontwerp',
+        'Architect van schaalbare backend systemen',
+        'Specialist in onderwijstechnologie'
       ]
     }
   ];
@@ -134,8 +134,8 @@ const TeamPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Ons Expert Team</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Drie gepassioneerde developers met complementaire skills en een shared vision 
-              voor innovative technology solutions.
+              Drie gepassioneerde ontwikkelaars met aanvullende vaardigheden en een gedeelde visie 
+              voor innovatieve technologie oplossingen.
             </p>
           </div>
 
@@ -169,7 +169,7 @@ const TeamPage = () => {
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
                           <Code className="w-5 h-5" />
-                          Specialties
+                          Specialiteiten
                         </h4>
                         <div className="flex flex-wrap gap-2">
                           {member.specialties.map((specialty, idx) => (
@@ -183,7 +183,7 @@ const TeamPage = () => {
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
                           <Award className="w-5 h-5" />
-                          Key Achievements
+                          Belangrijkste Prestaties
                         </h4>
                         <ul className="space-y-1">
                           {member.achievements.slice(0, 2).map((achievement, idx) => (
@@ -199,7 +199,7 @@ const TeamPage = () => {
                     <div className="flex flex-wrap items-center gap-6 text-sm text-gray-500">
                       <div className="flex items-center gap-2">
                         <Calendar className="w-4 h-4" />
-                        {member.experience} experience
+                        {member.experience} ervaring
                       </div>
                       <div className="flex items-center gap-2">
                         <MapPin className="w-4 h-4" />
@@ -218,18 +218,18 @@ const TeamPage = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Team Impact</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Team Resultaten</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Samen hebben we een impressive track record opgebouwd in diverse technology domains.
+              Samen hebben we een indrukwekkende staat van dienst opgebouwd in diverse technologie gebieden.
             </p>
           </div>
 
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { icon: Code, number: '50+', label: 'Projecten Delivered', desc: 'Successful implementations' },
-              { icon: Users, number: '25+', label: 'Happy Clients', desc: 'Across verschillende industries' },
-              { icon: Brain, number: '8', label: 'AI Solutions', desc: 'Deployed en running' },
-              { icon: Award, number: '20+', label: 'Jaar Experience', desc: 'Combined team expertise' }
+              { icon: Code, number: '50+', label: 'Projecten Opgeleverd', desc: 'Succesvolle implementaties' },
+              { icon: Users, number: '25+', label: 'Tevreden Klanten', desc: 'Verspreid over verschillende sectoren' },
+              { icon: Brain, number: '8', label: 'AI Oplossingen', desc: 'Uitgerold en actief' },
+              { icon: Award, number: '20+', label: 'Jaar Ervaring', desc: 'Gecombineerde team expertise' }
             ].map(({ icon: Icon, number, label, desc }, index) => (
               <div key={index} className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -248,27 +248,27 @@ const TeamPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze Approach</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze Werkwijze</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Hoe wij samenwerken om exceptional results te leveren voor onze clients.
+              Hoe wij samenwerken om uitzonderlijke resultaten te leveren voor onze klanten.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Collaborative Development',
-                description: 'Wij werken als één team, waarbij elke developer zijn unique expertise inbrengt voor optimal results.',
+                title: 'Samenwerking in Ontwikkeling',
+                description: 'Wij werken als één team, waarbij elke ontwikkelaar zijn unieke expertise inbrengt voor optimale resultaten.',
                 icon: Users
               },
               {
-                title: 'Innovation First',
-                description: 'Wij blijven altijd up-to-date met de latest technologies en best practices in de industry.',
+                title: 'Innovatie Voorop',
+                description: 'Wij blijven altijd bij met de nieuwste technologieën en beste praktijken in de sector.',
                 icon: Brain
               },
               {
-                title: 'Quality Focused',
-                description: 'Elke line of code wordt reviewed en getest om de highest standards van quality te garanderen.',
+                title: 'Kwaliteit Gericht',
+                description: 'Elke regel code wordt beoordeeld en getest om de hoogste kwaliteitsnormen te garanderen.',
                 icon: Award
               }
             ].map((approach, index) => {
@@ -291,10 +291,10 @@ const TeamPage = () => {
       <section className="py-20 bg-gradient-to-r from-blue-600 to-teal-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready om Met Ons Team te Werken?
+            Klaar om Met Ons Team te Werken?
           </h2>
           <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-            Laten we bespreken hoe onze combined expertise jouw project naar het next level kan brengen.
+            Laten we bespreken hoe onze gecombineerde expertise jouw project naar een hoger niveau kan brengen.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -307,7 +307,7 @@ const TeamPage = () => {
               to="/#services"
               className="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-300"
             >
-              Bekijk Onze Services
+              Bekijk Onze Diensten
             </Link>
           </div>
         </div>

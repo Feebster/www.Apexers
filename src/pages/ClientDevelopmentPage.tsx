@@ -9,61 +9,61 @@ const ClientDevelopmentPage = () => {
   const clients = [
     {
       name: 'Juva',
-      description: 'Leading healthcare technology solutions',
-      services: ['Full-stack development', 'API integration', 'Mobile applications'],
+      description: 'Toonaangevende zorgverlening technologie oplossingen',
+      services: ['Full-stack ontwikkeling', 'API integratie', 'Mobiele applicaties'],
       duration: '18 maanden',
-      results: 'Patient care efficiency verbeterd met 40%'
+      results: 'Patiëntenzorg efficiëntie verbeterd met 40%'
     },
     {
       name: 'AS Watson',
-      description: 'Global health en beauty retailer',
-      services: ['E-commerce platform', 'Inventory management', 'Customer analytics'],
+      description: 'Wereldwijde gezondheid en schoonheid retailer',
+      services: ['E-commerce platform', 'Voorraadbeheer', 'Klant analyses'],
       duration: '12 maanden',
-      results: 'Online sales verhoogd met 65%'
+      results: 'Online verkoop verhoogd met 65%'
     },
     {
       name: 'Cannock',
-      description: 'Industrial equipment en engineering solutions',
-      services: ['Industrial management systeem', 'Process automation', 'Data analytics platform'],
+      description: 'Industriële apparatuur en engineering oplossingen',
+      services: ['Industrieel beheersysteem', 'Proces automatisering', 'Data analyse platform'],
       duration: '10 maanden',
-      results: 'Operations gestroomlijnd across multiple facilities'
+      results: 'Operaties gestroomlijnd over meerdere faciliteiten'
     },
     {
       name: 'Heerema',
-      description: 'Marine contracting en offshore solutions',
-      services: ['Project management platform', 'Resource planning systeem', 'Real-time monitoring'],
+      description: 'Maritieme contracten en offshore oplossingen',
+      services: ['Projectbeheer platform', 'Resource planning systeem', 'Real-time monitoring'],
       duration: '15 maanden',
-      results: 'Project efficiency verbeterd met 35%'
+      results: 'Project efficiëntie verbeterd met 35%'
     },
     {
       name: 'Biblion',
-      description: 'Library en educational services',
-      services: ['Digital library platform', 'User management', 'Content delivery'],
+      description: 'Bibliotheek en onderwijsdiensten',
+      services: ['Digitaal bibliotheek platform', 'Gebruikersbeheer', 'Content levering'],
       duration: '15 maanden',
-      results: 'User engagement verhoogd met 80%'
+      results: 'Gebruikersbetrokkenheid verhoogd met 80%'
     }
   ];
 
   const capabilities = [
     {
       icon: Code,
-      title: 'Full-Stack Development',
-      description: 'End-to-end web application development using modern technologies like React, Node.js, and cloud platforms.'
+      title: 'Full-Stack Ontwikkeling',
+      description: 'Complete webapplicatie ontwikkeling met moderne technologieën zoals React, Node.js en cloud platforms.'
     },
     {
       icon: Users,
-      title: 'Enterprise Solutions',
-      description: 'Scalable solutions designed for large organizations with complex requirements and high user volumes.'
+      title: 'Bedrijfsoplossingen',
+      description: 'Schaalbare oplossingen ontworpen voor grote organisaties met complexe vereisten en hoge gebruikersvolumes.'
     },
     {
       icon: Award,
-      title: 'Quality Assurance',
-      description: 'Rigorous testing and quality control processes ensuring reliable, secure, and performant applications.'
+      title: 'Kwaliteitsborging',
+      description: 'Strenge test- en kwaliteitscontrole processen die betrouwbare, veilige en performante applicaties garanderen.'
     },
     {
       icon: Calendar,
-      title: 'Project Management',
-      description: 'Agile development methodology with transparent communication and regular milestone deliveries.'
+      title: 'Projectbeheer',
+      description: 'Agile ontwikkelmethodologie met transparante communicatie en regelmatige mijlpaal leveringen.'
     }
   ];
 
@@ -90,24 +90,24 @@ const ClientDevelopmentPage = () => {
                 <Code className="w-8 h-8 text-white" />
               </div>
               <h1 className="text-4xl md:text-6xl font-bold text-white">
-                Client Project Development
+                Klant Project Ontwikkeling
               </h1>
             </div>
             
             <p className="text-xl text-blue-100 leading-relaxed mb-8">
-              We deliver custom development solutions for established enterprise clients, 
-              building scalable applications that drive business growth and operational efficiency.
+              Wij leveren maatwerk ontwikkeloplossingen voor gevestigde bedrijfsklanten, 
+              waarbij we schaalbare applicaties bouwen die bedrijfsgroei en operationele efficiëntie stimuleren.
             </p>
             
             <div className="flex flex-wrap gap-4">
               <div className="bg-white/10 px-4 py-2 rounded-full">
-                <span className="text-white font-medium">4 Major Clients</span>
+                <span className="text-white font-medium">4 Grote Klanten</span>
               </div>
               <div className="bg-white/10 px-4 py-2 rounded-full">
-                <span className="text-white font-medium">50+ Projects Delivered</span>
+                <span className="text-white font-medium">50+ Projecten Opgeleverd</span>
               </div>
               <div className="bg-white/10 px-4 py-2 rounded-full">
-                <span className="text-white font-medium">25+ Years Experience</span>
+                <span className="text-white font-medium">25+ Jaar Ervaring</span>
               </div>
             </div>
           </div>
@@ -118,9 +118,9 @@ const ClientDevelopmentPage = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Development Capabilities</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze Ontwikkel Capaciteiten</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive technical expertise to handle complex enterprise requirements
+              Uitgebreide technische expertise om complexe bedrijfsvereisten aan te pakken
             </p>
           </div>
 
@@ -145,9 +145,9 @@ const ClientDevelopmentPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Client Portfolio</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Klanten Portfolio</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Trusted by leading organizations across various industries
+              Vertrouwd door toonaangevende organisaties in verschillende sectoren
             </p>
           </div>
 
@@ -164,6 +164,7 @@ const ClientDevelopmentPage = () => {
 
                 <div className="mb-6">
                   <h4 className="font-semibold text-gray-900 mb-3">Services Provided</h4>
+                <h4 className="font-semibold text-gray-900 mb-3">Geleverde Diensten</h4>
                   <div className="flex flex-wrap gap-2">
                     {client.services.map((service, idx) => (
                       <span key={idx} className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium">
@@ -175,18 +176,18 @@ const ClientDevelopmentPage = () => {
 
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div>
-                    <h5 className="font-semibold text-gray-900 mb-1">Project Duration</h5>
+                    <h5 className="font-semibold text-gray-900 mb-1">Project Duur</h5>
                     <p className="text-gray-600">{client.duration}</p>
                   </div>
                   <div>
-                    <h5 className="font-semibold text-gray-900 mb-1">Key Results</h5>
+                    <h5 className="font-semibold text-gray-900 mb-1">Belangrijkste Resultaten</h5>
                     <p className="text-green-600 font-medium">{client.results}</p>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-2 text-green-600">
                   <CheckCircle className="w-5 h-5" />
-                  <span className="font-medium">Project Completed Successfully</span>
+                  <span className="font-medium">Project Succesvol Afgerond</span>
                 </div>
               </div>
             ))}
@@ -198,9 +199,9 @@ const ClientDevelopmentPage = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Technology Stack</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Technologie Stack</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Modern technologies and frameworks for robust, scalable solutions
+              Moderne technologieën en frameworks voor robuuste, schaalbare oplossingen
             </p>
           </div>
 
@@ -221,23 +222,23 @@ const ClientDevelopmentPage = () => {
       <section className="py-20 bg-blue-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Start Your Project?
+            Klaar om Jouw Project te Starten?
           </h2>
           <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-            Let's discuss how we can help you build the perfect solution for your business needs.
+            Laten we bespreken hoe wij je kunnen helpen de perfecte oplossing voor jouw bedrijfsbehoeften te bouwen.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/#contact"
               className="px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-300"
             >
-              Get In Touch
+              Neem Contact Op
             </Link>
             <Link
               to="/#portfolio"
               className="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors duration-300"
             >
-              View Portfolio
+              Bekijk Portfolio
             </Link>
           </div>
         </div>

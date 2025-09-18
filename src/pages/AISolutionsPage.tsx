@@ -10,41 +10,41 @@ const AISolutionsPage = () => {
     {
       icon: Bot,
       title: 'AI Chatbots',
-      description: 'Intelligent conversational agents that provide 24/7 customer support and engagement.',
-      features: ['Natural language processing', 'Multi-language support', 'Integration with existing systems', 'Analytics and insights'],
-      useCases: ['Customer service', 'Lead generation', 'FAQ automation', 'Appointment booking']
+      description: 'Intelligente conversatie agents die 24/7 klantenservice en betrokkenheid bieden.',
+      features: ['Natuurlijke taalverwerking', 'Meertalige ondersteuning', 'Integratie met bestaande systemen', 'Analyses en inzichten'],
+      useCases: ['Klantenservice', 'Lead generatie', 'FAQ automatisering', 'Afspraak boeken']
     },
     {
       icon: Zap,
-      title: 'AI Agents',
-      description: 'Autonomous AI systems that can perform complex tasks and decision-making processes.',
-      features: ['Task automation', 'Decision making', 'Learning capabilities', 'API integrations'],
-      useCases: ['Process automation', 'Data analysis', 'Content moderation', 'Quality control']
+      title: 'AI Agenten',
+      description: 'Autonome AI systemen die complexe taken en besluitvormingsprocessen kunnen uitvoeren.',
+      features: ['Taak automatisering', 'Besluitvorming', 'Leer mogelijkheden', 'API integraties'],
+      useCases: ['Proces automatisering', 'Data analyse', 'Content moderatie', 'Kwaliteitscontrole']
     },
     {
       icon: Target,
       title: 'E-commerce Content Creators',
-      description: 'AI-powered tools that generate product descriptions, marketing content, and SEO-optimized text.',
-      features: ['Product description generation', 'SEO optimization', 'Multi-platform content', 'Brand voice consistency'],
-      useCases: ['Product catalogs', 'Marketing campaigns', 'Social media content', 'Email marketing']
+      description: 'AI-aangedreven tools die productbeschrijvingen, marketing content en SEO-geoptimaliseerde tekst genereren.',
+      features: ['Productbeschrijving generatie', 'SEO optimalisatie', 'Multi-platform content', 'Merk stem consistentie'],
+      useCases: ['Product catalogi', 'Marketing campagnes', 'Social media content', 'Email marketing']
     }
   ];
 
   const benefits = [
     {
       icon: TrendingUp,
-      title: '40% Efficiency Increase',
-      description: 'Average productivity improvement across client implementations'
+      title: '40% Efficiëntie Toename',
+      description: 'Gemiddelde productiviteitsverbetering over klant implementaties'
     },
     {
       icon: Bot,
-      title: '24/7 Availability',
-      description: 'AI solutions work around the clock without breaks or downtime'
+      title: '24/7 Beschikbaarheid',
+      description: 'AI oplossingen werken de klok rond zonder pauzes of stilstand'
     },
     {
       icon: Target,
-      title: '95% Accuracy Rate',
-      description: 'High precision in automated tasks and decision-making processes'
+      title: '95% Nauwkeurigheid',
+      description: 'Hoge precisie in geautomatiseerde taken en besluitvormingsprocessen'
     }
   ];
 
@@ -61,7 +61,7 @@ const AISolutionsPage = () => {
               className="flex items-center gap-2 text-teal-200 hover:text-white transition-colors duration-200"
             >
               <ArrowLeft className="w-5 h-5" />
-              Back to Home
+              Terug naar Home
             </Link>
           </div>
           
@@ -71,13 +71,13 @@ const AISolutionsPage = () => {
                 <Brain className="w-8 h-8 text-white" />
               </div>
               <h1 className="text-4xl md:text-6xl font-bold text-white">
-                AI Solutions
+                AI Oplossingen
               </h1>
             </div>
             
             <p className="text-xl text-teal-100 leading-relaxed mb-8">
-              Cutting-edge artificial intelligence implementations die processes automatiseren, 
-              customer experiences verbeteren en business innovation driven door intelligent automation.
+              Geavanceerde kunstmatige intelligentie implementaties die processen automatiseren, 
+              klantenervaringen verbeteren en bedrijfsinnovatie stimuleren door intelligente automatisering.
             </p>
             
             <div className="flex items-center gap-4 mb-8">
@@ -99,9 +99,9 @@ const AISolutionsPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze AI Solutions</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Onze AI Oplossingen</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive AI implementations tailored naar jouw business needs
+              Uitgebreide AI implementaties op maat voor jouw bedrijfsbehoeften
             </p>
           </div>
 
@@ -126,7 +126,7 @@ const AISolutionsPage = () => {
 
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
-                        <h4 className="font-semibold text-gray-900 mb-3">Key Features</h4>
+                        <h4 className="font-semibold text-gray-900 mb-3">Belangrijkste Functies</h4>
                         <ul className="space-y-2">
                           {solution.features.map((feature, idx) => (
                             <li key={idx} className="flex items-center gap-2">
@@ -138,7 +138,7 @@ const AISolutionsPage = () => {
                       </div>
                       
                       <div>
-                        <h4 className="font-semibold text-gray-900 mb-3">Use Cases</h4>
+                        <h4 className="font-semibold text-gray-900 mb-3">Toepassingen</h4>
                         <ul className="space-y-2">
                           {solution.useCases.map((useCase, idx) => (
                             <li key={idx} className="flex items-center gap-2">
@@ -169,9 +169,9 @@ const AISolutionsPage = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Proven Results</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Bewezen Resultaten</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meetbare impact across alle onze AI implementations
+              Meetbare impact van alle onze AI implementaties
             </p>
           </div>
 
@@ -196,9 +196,9 @@ const AISolutionsPage = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">AI Technologies</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">AI Technologieën</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Leveraging de latest in artificial intelligence en machine learning
+              Gebruik makend van het nieuwste in kunstmatige intelligentie en machine learning
             </p>
           </div>
 
@@ -219,10 +219,10 @@ const AISolutionsPage = () => {
       <section className="py-20 bg-teal-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            Zie Onze AI Solutions in Action
+            Zie Onze AI Oplossingen in Actie
           </h2>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Bezoek PowerWiz om onze AI-powered e-commerce content creation tools firsthand te ervaren.
+            Bezoek PowerWiz om onze AI-aangedreven e-commerce content creatie tools uit de eerste hand te ervaren.
           </p>
           <a
             href="https://powerwiz.nl"
@@ -240,17 +240,17 @@ const AISolutionsPage = () => {
       <section className="py-20 bg-teal-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready om AI Solutions te Implementeren?
+            Klaar om AI Oplossingen te Implementeren?
           </h2>
           <p className="text-xl text-teal-100 mb-8 leading-relaxed">
-            Laten we exploreren hoe artificial intelligence jouw business operations en customer experience kan transformeren.
+            Laten we verkennen hoe kunstmatige intelligentie jouw bedrijfsoperaties en klantervaring kan transformeren.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/#contact"
               className="px-8 py-4 bg-white text-teal-600 rounded-lg font-semibold hover:bg-teal-50 transition-colors duration-300"
             >
-              Bespreek AI Solutions
+              Bespreek AI Oplossingen
             </Link>
             <Link
               to="/#portfolio"
