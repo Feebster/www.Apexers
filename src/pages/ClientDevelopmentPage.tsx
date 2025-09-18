@@ -1,46 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Code, Users, CheckCircle, ExternalLink, Calendar, Award } from 'lucide-react';
+import { ArrowLeft, Code, Users, CheckCircle, Info, Calendar, Award, X } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Chatbot from '../components/Chatbot';
 
 const ClientDevelopmentPage = () => {
+  const [selectedClient, setSelectedClient] = useState<string | null>(null);
+
   const clients = [
     {
       name: 'Juva',
       description: 'Toonaangevende zorgverlening technologie oplossingen',
-      services: ['Full-stack ontwikkeling', 'API integratie', 'Mobiele applicaties'],
       duration: '18 maanden',
-      results: 'Patiëntenzorg efficiëntie verbeterd met 40%'
+      results: 'Patiëntenzorg efficiëntie verbeterd met 40%',
+      werkzaamheden: 'Ontwikkeling van een uitgebreid zorgplatform met patiëntendossiers, afsprakenplanning en communicatietools. Integratie met bestaande zorgverlening systemen en mobiele app voor zorgverleners.'
     },
     {
       name: 'AS Watson',
       description: 'Wereldwijde gezondheid en schoonheid retailer',
-      services: ['E-commerce platform', 'Voorraadbeheer', 'Klant analyses'],
       duration: '12 maanden',
-      results: 'Online verkoop verhoogd met 65%'
+      results: 'Online verkoop verhoogd met 65%',
+      werkzaamheden: 'Modernisering van het e-commerce platform met geavanceerde zoekfunctionaliteit, gepersonaliseerde productaanbevelingen en geïntegreerd voorraadbeheer systeem voor meerdere landen.'
     },
     {
       name: 'Cannock',
       description: 'Industriële apparatuur en engineering oplossingen',
-      services: ['Industrieel beheersysteem', 'Proces automatisering', 'Data analyse platform'],
       duration: '10 maanden',
-      results: 'Operaties gestroomlijnd over meerdere faciliteiten'
+      results: 'Operaties gestroomlijnd over meerdere faciliteiten',
+      werkzaamheden: 'Implementatie van een centraal beheersysteem voor industriële processen, real-time monitoring van apparatuur en automatisering van kwaliteitscontrole procedures.'
     },
     {
       name: 'Heerema',
       description: 'Maritieme contracten en offshore oplossingen',
-      services: ['Projectbeheer platform', 'Resource planning systeem', 'Real-time monitoring'],
       duration: '15 maanden',
-      results: 'Project efficiëntie verbeterd met 35%'
+      results: 'Project efficiëntie verbeterd met 35%',
+      werkzaamheden: 'Ontwikkeling van een uitgebreid projectbeheer platform voor offshore operaties, inclusief resource planning, tijdregistratie en real-time voortgangsmonitoring van maritieme projecten.'
     },
     {
       name: 'Biblion',
       description: 'Bibliotheek en onderwijsdiensten',
-      services: ['Digitaal bibliotheek platform', 'Gebruikersbeheer', 'Content levering'],
       duration: '15 maanden',
-      results: 'Gebruikersbetrokkenheid verhoogd met 80%'
+      results: 'Gebruikersbetrokkenheid verhoogd met 80%',
+      werkzaamheden: 'Creatie van een modern digitaal bibliotheek platform met geavanceerde zoekfunctionaliteit, gebruikersbeheer, content management en integratie met externe databases voor onderwijsmateriaal.'
     }
   ];
 
@@ -159,19 +161,12 @@ const ClientDevelopmentPage = () => {
                     <h3 className="text-2xl font-bold text-gray-900 mb-2">{client.name}</h3>
                     <p className="text-gray-600">{client.description}</p>
                   </div>
-                  <ExternalLink className="w-5 h-5 text-gray-400" />
-                </div>
-
-                <div className="mb-6">
-                  <h4 className="font-semibold text-gray-900 mb-3">Services Provided</h4>
-                <h4 className="font-semibold text-gray-900 mb-3">Geleverde Diensten</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {client.services.map((service, idx) => (
-                      <span key={idx} className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium">
-                        {service}
-                      </span>
-                    ))}
-                  </div>
+                  <button
+                    onClick={() => setSelectedClient(client.name)}
+                    className="p-2 hover:bg-gray-100 rounded-lg transition-colors duration-200"
+                  >
+                    <Info className="w-5 h-5 text-gray-400 hover:text-blue-600" />
+                  </button>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 mb-6">
@@ -193,6 +188,40 @@ const ClientDevelopmentPage = () => {
             ))}
           </div>
         </div>
+
+        {/* Popup Modal */}
+        {selectedClient && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+            <div className="bg-white rounded-2xl p-8 max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+              <div className="flex items-center justify-between mb-6">
+                <h3 className="text-2xl font-bold text-gray-900">
+                  Werkzaamheden - {selectedClient}
+                </h3>
+                <button
+                  onClick={() => setSelectedClient(null)}
+                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors duration-200"
+                >
+                  <X className="w-6 h-6 text-gray-400" />
+                </button>
+              </div>
+              
+              <div className="prose prose-lg">
+                <p className="text-gray-600 leading-relaxed">
+                  {clients.find(client => client.name === selectedClient)?.werkzaamheden}
+                </p>
+              </div>
+              
+              <div className="mt-8 pt-6 border-t border-gray-200">
+                <button
+                  onClick={() => setSelectedClient(null)}
+                  className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300"
+                >
+                  Sluiten
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Technology Stack */}
