@@ -17,7 +17,7 @@ const Portfolio = () => {
     {
       title: 'Munova Industrial Platform',
       category: 'Industrial Solutions',
-      description: 'Advanced machine management platform designed om industrial operations en maintenance scheduling te optimaliseren.',
+      description: 'Geavanceerd machinebeheerplatform, ontworpen om industriële operaties en onderhoudsplanning te optimaliseren.',
       image: 'https://images.pexels.com/photos/3785935/pexels-photo-3785935.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['React', 'Node.js', 'IoT', 'Machine Learning', 'Industrial', 'Analytics'],
       link: 'munova.nl',
