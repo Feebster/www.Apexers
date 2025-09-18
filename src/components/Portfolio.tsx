@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ExternalLink, ArrowRight } from 'lucide-react';
 
 const Portfolio = () => {
@@ -6,38 +7,42 @@ const Portfolio = () => {
     {
       title: 'Yollen Educational Platform',
       category: 'Educational Technology',
-      description: 'A comprehensive teacher collegial consultation tool that facilitates professional development and collaborative learning among educators.',
+      description: 'Een comprehensive teacher collegial consultation tool die professional development en collaborative learning tussen educators faciliteert.',
       image: 'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'Node.js', 'Education', 'Collaboration'],
+      tags: ['React', 'Node.js', 'EdTech', 'Collaboration'],
       link: 'www.yollen.nl',
-      featured: true
+      featured: true,
+      pageLink: '/services/educational-tech'
     },
     {
-      title: 'Munova Industrial Suite',
+      title: 'Munova Industrial Platform',
       category: 'Industrial Solutions',
-      description: 'Advanced machine management platform designed to optimize industrial operations and maintenance scheduling.',
+      description: 'Advanced machine management platform designed om industrial operations en maintenance scheduling te optimaliseren.',
       image: 'https://images.pexels.com/photos/3785935/pexels-photo-3785935.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['IoT', 'Machine Learning', 'Industrial', 'Analytics'],
       link: 'munova.nl',
-      featured: true
+      featured: true,
+      pageLink: '/services/industrial-solutions'
     },
     {
-      title: 'PowerWiz AI Solutions',
+      title: 'PowerWiz AI Platform',
       category: 'AI & Automation',
-      description: 'Cutting-edge AI agents and chatbot implementations for e-commerce content creation and customer engagement.',
+      description: 'Cutting-edge AI agents en chatbot implementations voor e-commerce content creation en customer engagement.',
       image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['AI', 'Machine Learning', 'E-commerce', 'Automation'],
       link: 'powerwiz.nl',
-      featured: false
+      featured: false,
+      pageLink: '/services/ai-solutions'
     },
     {
-      title: 'Enterprise Client Solutions',
+      title: 'Enterprise Client Development',
       category: 'Custom Development',
-      description: 'Tailored development solutions for major enterprise clients including modern web applications and system integrations.',
+      description: 'Tailored development solutions voor major enterprise clients inclusief moderne web applications en system integrations.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Enterprise', 'Full-Stack', 'Integration', 'Scalability'],
-      link: '#',
-      featured: false
+      tags: ['Enterprise', 'Full-Stack', 'Integration', 'Custom'],
+      link: 'Juva, AS Watson, Cannock, Heerema, Biblion',
+      featured: false,
+      pageLink: '/services/client-development'
     }
   ];
 
@@ -87,10 +92,13 @@ const Portfolio = () => {
                 
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-500">{project.link}</span>
-                  <button className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold group/btn">
+                  <Link 
+                    to={project.pageLink}
+                    className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold group/btn"
+                  >
                     Bekijk Project
                     <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -125,7 +133,9 @@ const Portfolio = () => {
                   <div className="flex flex-wrap gap-1">
                     {project.tags.slice(0, 3).map((tag, idx) => (
                       <span key={idx} className="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs">
-                        {tag}
+                      <Link to={project.pageLink}>
+                        <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-600 transition-colors duration-300" />
+                      </Link>
                       </span>
                     ))}
                     {project.tags.length > 3 && (
@@ -139,9 +149,12 @@ const Portfolio = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
-            Bekijk Alle Projecten
-          </button>
+          <Link 
+            to="/#services"
+            className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
+          >
+            Bekijk Alle Services
+          </Link>
         </div>
       </div>
     </section>
