@@ -26,8 +26,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-blue-100 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Wij leveren cutting-edge technology solutions voor client development, AI innovation, 
-            educational tools en industrial systems met een dedicated team van 3 expert developers.
+            Wij leveren cutting-edge technologische oplossingen voor client development, AI-innovatie, educatieve tools en industriële systemen               met een toegewijd team van 3 expert-ontwikkelaars.
           </p>
 
           {/* Service Icons */}
