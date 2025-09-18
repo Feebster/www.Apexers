@@ -202,12 +202,6 @@ const Services = () => {
             );
           })}
         </div>
-
-        <div className="text-center mt-12">
-          <button className="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
-            Bekijk Alle Projecten
-          </button>
-        </div>
       </div>
     </section>
   );
