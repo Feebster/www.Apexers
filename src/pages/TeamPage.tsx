@@ -104,7 +104,7 @@ const TeamPage = () => {
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h1 className="text-4xl md:text-6xl font-bold text-white">
-                Wie Wij Zijn
+                De co-founders verschillende ​karakters samen sterk
               </h1>
             </div>
             
