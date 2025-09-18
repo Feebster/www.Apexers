@@ -19,7 +19,7 @@ const Portfolio = () => {
       category: 'Industrial Solutions',
       description: 'Geavanceerd machinebeheerplatform, ontworpen om industriële operaties en onderhoudsplanning te optimaliseren.',
       image: 'https://images.pexels.com/photos/3785935/pexels-photo-3785935.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Mobile App', 'React Native', 'IoT', 'Machine Learning', 'Industrial', 'Analytics'],
+      tags: ['Mobile App', 'React Native', 'Oracle Apex', 'IoT', 'Dashboards'],
       link: 'munova.nl',
       featured: true,
       pageLink: '/services/industrial-solutions'
