@@ -7,20 +7,20 @@ const Services = () => {
     {
       icon: Code,
       title: 'Client Project Development',
-      description: 'Custom development solutions for established enterprise clients with proven track records.',
+      description: 'Custom development solutions voor established enterprise clients met proven track records.',
       features: [
         'Full-stack web development',
         'Mobile application development',
         'API integration and development',
-        'Legacy system modernization'
+        'Legacy systeem modernization'
       ],
-      clients: ['Juva', 'AS Watson', 'Hans Anders', 'Biblion'],
+      clients: ['Juva', 'AS Watson', 'Cannock', 'Heerema', 'Biblion'],
       color: 'blue'
     },
     {
       icon: Brain,
       title: 'AI Solutions',
-      description: 'Cutting-edge artificial intelligence implementations to automate and enhance business processes.',
+      description: 'Cutting-edge artificial intelligence implementations om business processen te automatiseren en verbeteren.',
       features: [
         'AI agent development',
         'Chatbot implementation',
@@ -33,10 +33,10 @@ const Services = () => {
     {
       icon: GraduationCap,
       title: 'Educational Technology',
-      description: 'Innovative tools and platforms designed to enhance educational experiences and outcomes.',
+      description: 'Innovative tools en platforms designed om educational experiences en outcomes te verbeteren.',
       features: [
         'Collaborative consultation tools',
-        'Assessment and evaluation systems',
+        'Assessment en evaluation systemen',
         'Learning management solutions',
         'Educational analytics'
       ],
@@ -49,12 +49,12 @@ const Services = () => {
     {
       icon: Cog,
       title: 'Industrial Solutions',
-      description: 'Sophisticated management tools for industrial operations and machine optimization.',
+      description: 'Sophisticated management tools voor industrial operations en machine optimization.',
       features: [
-        'Machine management systems',
+        'Machine management systemen',
         'Industrial IoT solutions',
         'Process optimization tools',
-        'Maintenance scheduling systems'
+        'Maintenance scheduling systemen'
       ],
       products: [
         { name: 'Munova', url: 'munova.nl', desc: 'Machine management platform' }
@@ -98,20 +98,20 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Our Services
+            Onze Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Four core specializations that drive innovation and deliver exceptional results for our clients.
+            Vier core specialisaties die innovation drijven en exceptional results leveren voor onze clients.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8 items-stretch">
           {services.map((service, index) => {
             const colors = getColorClasses(service.color);
             const Icon = service.icon;
             
             return (
-              <div key={index} className={`${colors.bg} p-8 rounded-2xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1`}>
+              <div key={index} className={`${colors.bg} p-8 rounded-2xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full`}>
                 <div className="flex items-start gap-6 mb-6">
                   <div className={`${colors.icon} w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0`}>
                     <Icon className="w-8 h-8" />
@@ -122,7 +122,7 @@ const Services = () => {
                   </div>
                 </div>
 
-                <div className="mb-6">
+                <div className="mb-6 flex-grow">
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Key Capabilities</h4>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {service.features.map((feature, idx) => (
@@ -185,7 +185,8 @@ const Services = () => {
                   </div>
                 )}
 
-                <Link 
+                <div className="mt-auto">
+                  <Link 
                   to={
                     index === 0 ? "/services/client-development" :
                     index === 1 ? "/services/ai-solutions" :
@@ -194,8 +195,9 @@ const Services = () => {
                   }
                   className={`block w-full ${colors.button} text-white py-3 px-6 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg text-center`}
                 >
-                  Learn More
+                  Meer Info
                 </Link>
+                </div>
               </div>
             );
           })}
@@ -203,7 +205,7 @@ const Services = () => {
 
         <div className="text-center mt-12">
           <button className="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
-            View All Projects
+            Bekijk Alle Projecten
           </button>
         </div>
       </div>

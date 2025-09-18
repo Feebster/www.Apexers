@@ -60,7 +60,7 @@ const Contact = () => {
     'AI Solutions',
     'Educational Technology',
     'Industrial Solutions',
-    'Other'
+    'Anders'
   ];
 
   return (
@@ -68,10 +68,10 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Get In Touch
+            Neem Contact Op
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Ready to transform your ideas into innovative solutions? Let's discuss your project and explore how we can help you achieve your goals.
+            Ready om jouw ideeën te transformeren naar innovative solutions? Laten we jouw project bespreken en ontdekken hoe wij je kunnen helpen je goals te achieven.
           </p>
         </div>
 
@@ -79,10 +79,10 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Let's Start a Conversation</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">Laten We Een Gesprek Starten</h3>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Whether you need custom development, AI solutions, educational technology, 
-                or industrial systems, our team is here to bring your vision to life.
+                Of je nu custom development, AI solutions, educational technology, 
+                of industrial systemen nodig hebt, ons team is er om jouw vision tot leven te brengen.
               </p>
             </div>
 
@@ -109,14 +109,14 @@ const Contact = () => {
             </div>
 
             <div className="bg-gradient-to-r from-blue-50 to-teal-50 p-8 rounded-2xl">
-              <h4 className="text-xl font-bold text-gray-900 mb-4">Why Work With Us?</h4>
+              <h4 className="text-xl font-bold text-gray-900 mb-4">Waarom Met Ons Werken?</h4>
               <ul className="space-y-3">
                 {[
-                  'Expert team with proven track record',
-                  'Tailored solutions for your specific needs',
+                  'Expert team met proven track record',
+                  'Tailored solutions voor jouw specific needs',
                   'Agile development methodology',
-                  'Ongoing support and maintenance',
-                  'Competitive pricing and transparent communication'
+                  'Ongoing support en maintenance',
+                  'Competitive pricing en transparent communication'
                 ].map((benefit, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
@@ -134,7 +134,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      Full Name *
+                      Volledige Naam *
                     </label>
                     <input
                       type="text"
@@ -144,12 +144,12 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                      placeholder="Your name"
+                      placeholder="Jouw naam"
                     />
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
+                      Email Adres *
                     </label>
                     <input
                       type="email"
@@ -159,7 +159,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                      placeholder="your@email.com"
+                      placeholder="jouw@email.com"
                     />
                   </div>
                 </div>
@@ -167,7 +167,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-                      Company
+                      Bedrijf
                     </label>
                     <input
                       type="text"
@@ -176,12 +176,12 @@ const Contact = () => {
                       value={formData.company}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                      placeholder="Your company"
+                      placeholder="Jouw bedrijf"
                     />
                   </div>
                   <div>
                     <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
-                      Service Interested In
+                      Service Interesse
                     </label>
                     <select
                       id="service"
@@ -190,7 +190,7 @@ const Contact = () => {
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
                     >
-                      <option value="">Select a service</option>
+                      <option value="">Selecteer een service</option>
                       {services.map((service, index) => (
                         <option key={index} value={service}>{service}</option>
                       ))}
@@ -210,7 +210,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 resize-none"
-                    placeholder="Tell us about your project, goals, timeline, and any specific requirements..."
+                    placeholder="Vertel ons over jouw project, goals, timeline en eventuele specific requirements..."
                   ></textarea>
                 </div>
 
@@ -218,7 +218,7 @@ const Contact = () => {
                   type="submit"
                   className="w-full bg-blue-600 text-white py-4 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 flex items-center justify-center gap-2 hover:shadow-lg transform hover:-translate-y-1"
                 >
-                  Send Message
+                  Verstuur Bericht
                   <Send className="w-5 h-5" />
                 </button>
               </form>
@@ -227,9 +227,9 @@ const Contact = () => {
                 <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <CheckCircle className="w-10 h-10 text-green-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Message Sent!</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Bericht Verzonden!</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Thank you for reaching out. We'll review your message and get back to you within 24 hours.
+                  Bedankt voor het contact opnemen. Wij bekijken jouw bericht en nemen binnen 24 uur contact op.
                 </p>
               </div>
             )}

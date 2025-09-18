@@ -4,9 +4,9 @@ import { Users, Target, Lightbulb, Award } from 'lucide-react';
 const About = () => {
   const stats = [
     { number: '3', label: 'Expert Developers', icon: Users },
-    { number: '50+', label: 'Projects Delivered', icon: Target },
-    { number: '4', label: 'Core Specializations', icon: Lightbulb },
-    { number: '25+', label: 'Years Experience', icon: Award },
+    { number: '50+', label: 'Projecten Delivered', icon: Target },
+    { number: '4', label: 'Core Specialisaties', icon: Lightbulb },
+    { number: '25+', label: 'Jaar Experience', icon: Award },
   ];
 
   return (
@@ -14,11 +14,11 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            About Apexers
+            Over Apexers
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We are a dynamic team of three expert developers specializing in creating 
-            innovative technology solutions that drive business growth and efficiency.
+            Wij zijn een dynamisch team van drie expert developers die zich specialiseren in het creëren 
+            van innovatieve tech solutions die business growth en efficiency boosten.
           </p>
         </div>
 
@@ -37,29 +37,29 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-3xl font-bold text-gray-900 mb-6">
-              Our Mission
+              Onze Missie
             </h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              We bridge the gap between cutting-edge technology and practical business solutions. 
-              Our diverse expertise spans from custom client development to AI innovation, 
-              educational technology, and industrial automation.
+              Wij bridgen de gap tussen cutting-edge technologie en praktische business solutions. 
+              Onze diverse expertise strekt zich uit van custom client development tot AI innovation, 
+              educational technology en industrial automation.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              With a perfect balance of client projects and innovative contract work, 
-              we consistently deliver exceptional results that exceed expectations and 
-              drive meaningful business impact.
+              Met een perfecte balans tussen client projecten en innovatief contract werk, 
+              leveren wij consistent exceptional results die verwachtingen overtreffen en 
+              meaningful business impact creëren.
             </p>
           </div>
           
           <div className="bg-white p-8 rounded-2xl shadow-xl">
-            <h4 className="text-2xl font-bold text-gray-900 mb-6">Why Choose Apexers?</h4>
+            <h4 className="text-2xl font-bold text-gray-900 mb-6">Waarom Kiezen voor Apexers?</h4>
             <ul className="space-y-4">
               {[
-                'Expert team with diverse technical skills',
-                'Proven track record with established clients',
-                'Innovation-driven approach to problem solving',
+                'Expert team met diverse technical skills',
+                'Proven track record bij established clients',
+                'Innovation-driven approach voor problem solving',
                 'Full-stack development capabilities',
-                'Agile and responsive project management'
+                'Agile en responsive project management'
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-blue-600 rounded-full mt-3 flex-shrink-0"></div>

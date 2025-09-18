@@ -11,29 +11,36 @@ const ClientDevelopmentPage = () => {
       name: 'Juva',
       description: 'Leading healthcare technology solutions',
       services: ['Full-stack development', 'API integration', 'Mobile applications'],
-      duration: '18 months',
-      results: 'Improved patient care efficiency by 40%'
+      duration: '18 maanden',
+      results: 'Patient care efficiency verbeterd met 40%'
     },
     {
       name: 'AS Watson',
-      description: 'Global health and beauty retailer',
+      description: 'Global health en beauty retailer',
       services: ['E-commerce platform', 'Inventory management', 'Customer analytics'],
-      duration: '12 months',
-      results: 'Increased online sales by 65%'
+      duration: '12 maanden',
+      results: 'Online sales verhoogd met 65%'
     },
     {
-      name: 'Hans Anders',
-      description: 'Optical retail chain',
-      services: ['Store management system', 'Customer portal', 'Appointment booking'],
-      duration: '8 months',
-      results: 'Streamlined operations across 200+ stores'
+      name: 'Cannock',
+      description: 'Industrial equipment en engineering solutions',
+      services: ['Industrial management systeem', 'Process automation', 'Data analytics platform'],
+      duration: '10 maanden',
+      results: 'Operations gestroomlijnd across multiple facilities'
+    },
+    {
+      name: 'Heerema',
+      description: 'Marine contracting en offshore solutions',
+      services: ['Project management platform', 'Resource planning systeem', 'Real-time monitoring'],
+      duration: '15 maanden',
+      results: 'Project efficiency verbeterd met 35%'
     },
     {
       name: 'Biblion',
-      description: 'Library and educational services',
+      description: 'Library en educational services',
       services: ['Digital library platform', 'User management', 'Content delivery'],
-      duration: '15 months',
-      results: 'Enhanced user engagement by 80%'
+      duration: '15 maanden',
+      results: 'User engagement verhoogd met 80%'
     }
   ];
 

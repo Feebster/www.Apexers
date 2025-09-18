@@ -18,7 +18,7 @@ const Header = () => {
 
   const navItems = [
     { name: 'Home', href: '#hero' },
-    { name: 'About', href: '#about' },
+    { name: 'Over', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Portfolio', href: '#portfolio' },
     { name: 'Contact', href: '#contact' },
@@ -74,7 +74,7 @@ const Header = () => {
                   to="/#about"
                   className="px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 hover:text-blue-700 text-gray-700"
                 >
-                  About
+                  Over
                 </Link>
                 <Link
                   to="/#services"
@@ -134,7 +134,7 @@ const Header = () => {
                   className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-700 hover:bg-gray-50 transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  About
+                  Over
                 </Link>
                 <Link
                   to="/#services"

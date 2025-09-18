@@ -21,22 +21,22 @@ const Hero = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Innovative Solutions for
+            Innovative Solutions voor
             <span className="bg-gradient-to-r from-teal-300 to-blue-200 bg-clip-text text-transparent"> Modern Business</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-blue-100 mb-12 max-w-3xl mx-auto leading-relaxed">
-            We deliver cutting-edge technology solutions across client development, AI innovation, 
-            educational tools, and industrial systems with a dedicated team of 3 expert developers.
+            Wij deliveren cutting-edge technology solutions voor client development, AI innovation, 
+            educational tools en industrial systems met een dedicated team van 3 expert developers.
           </p>
 
           {/* Service Icons */}
           <div className="flex justify-center gap-8 mb-12 flex-wrap">
             {[
-              { icon: Code, label: 'Client Projects' },
+              { icon: Code, label: 'Client Projecten' },
               { icon: Brain, label: 'AI Solutions' },
               { icon: GraduationCap, label: 'EdTech Tools' },
-              { icon: Cog, label: 'Industrial Systems' }
+              { icon: Cog, label: 'Industrial Systemen' }
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex flex-col items-center group">
                 <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-3 group-hover:bg-white/20 transition-all duration-300 group-hover:scale-110">
@@ -52,7 +52,7 @@ const Hero = () => {
               onClick={scrollToServices}
               className="px-8 py-4 bg-white text-blue-700 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-all duration-300 flex items-center gap-2 group shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
-              Explore Our Services
+              Ontdek Onze Services
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
             
@@ -60,7 +60,7 @@ const Hero = () => {
               onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-700 transition-all duration-300"
             >
-              Get In Touch
+              Neem Contact Op
             </button>
           </div>
         </div>

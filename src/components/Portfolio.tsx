@@ -46,10 +46,10 @@ const Portfolio = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Our Portfolio
+            Ons Portfolio
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Showcasing our diverse expertise across industries and technologies with real-world impact and measurable results.
+            Showcasing onze diverse expertise across industries en technologies met real-world impact en measurable results.
           </p>
         </div>
 
@@ -88,7 +88,7 @@ const Portfolio = () => {
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-500">{project.link}</span>
                   <button className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold group/btn">
-                    View Project
+                    Bekijk Project
                     <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
                   </button>
                 </div>
@@ -140,7 +140,7 @@ const Portfolio = () => {
 
         <div className="text-center mt-12">
           <button className="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
-            View All Projects
+            Bekijk Alle Projecten
           </button>
         </div>
       </div>

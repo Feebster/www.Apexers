@@ -12,16 +12,16 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { name: 'About', href: '#about' },
+    { name: 'Over', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Portfolio', href: '#portfolio' },
     { name: 'Contact', href: '#contact' }
   ];
 
   const projects = [
-    { name: 'Yollen', url: 'www.yollen.nl' },
-    { name: 'Munova', url: 'munova.nl' },
-    { name: 'PowerWiz', url: 'powerwiz.nl' }
+    { name: 'Yollen', url: 'https://www.yollen.nl' },
+    { name: 'Munova', url: 'https://munova.nl' },
+    { name: 'PowerWiz', url: 'https://powerwiz.nl' }
   ];
 
   const scrollToSection = (href: string) => {
@@ -41,8 +41,8 @@ const Footer = () => {
               <span className="text-3xl font-bold text-blue-400">Apexers</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
-              A dynamic team of three expert developers specializing in innovative technology solutions 
-              across client development, AI, education, and industrial systems.
+              Een dynamisch team van drie expert developers gespecialiseerd in innovative technology solutions 
+              voor client development, AI, education en industrial systemen.
             </p>
             
             <div className="flex flex-wrap gap-4 mb-6">
@@ -56,7 +56,7 @@ const Footer = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="mailto:hello@apexers.nl"
+                href="mailto:support@apexers.nl"
                 className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition-colors duration-300"
               >
                 <Mail className="w-4 h-4" />
@@ -91,11 +91,11 @@ const Footer = () => {
 
           {/* Featured Projects */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Featured Projects</h3>
+            <h3 className="text-lg font-semibold mb-6">Featured Projecten</h3>
             <ul className="space-y-3">
               {projects.map((project) => (
                 <li key={project.name}>
-                  <a href={"https://"+project.url} target="_blank" rel="noopener noreferrer">
+                  <a href={project.url} target="_blank" rel="noopener noreferrer">
                   <div className="flex items-center justify-between group">
                     <span className="text-gray-300 group-hover:text-blue-400 transition-colors duration-300">
                       {project.name}
@@ -103,7 +103,7 @@ const Footer = () => {
                     <ExternalLink className="w-4 h-4 text-gray-500 group-hover:text-blue-400 transition-colors duration-300" />
                   </div>
                   </a>
-                  <div className="text-xs text-gray-500 mt-1">{project.url}</div>
+                  <div className="text-xs text-gray-500 mt-1">{project.url.replace('https://', '').replace('www.', '')}</div>
                 </li>
               ))}
             </ul>
@@ -117,13 +117,13 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-6">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">
-                Privacy Policy
+                Privacy Beleid
               </a>
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">
-                Terms of Service
+                Algemene Voorwaarden
               </a>
               <div className="text-gray-400 text-sm">
-                Made with ❤️ in the Netherlands
+                Gemaakt met ❤️ in Nederland
               </div>
             </div>
           </div>

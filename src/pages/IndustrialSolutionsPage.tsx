@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Cog, Settings, BarChart3, Shield, ExternalLink, TrendingUp, Clock, Wrench } from 'lucide-react';
+import { ArrowLeft, Cog, Settings, BarChart3, Shield, ExternalLink, TrendingUp, Clock, Wrench, CheckCircle } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Chatbot from '../components/Chatbot';
@@ -193,8 +193,65 @@ const IndustrialSolutionsPage = () => {
         </div>
       </section>
 
-      {/* Industrial Solutions */}
+      {/* Client Portfolio */}
       <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Client Portfolio</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Vertrouwd door leading organisaties in de industrial sector
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-1 gap-8">
+            <div className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl border hover:shadow-lg transition-shadow duration-300">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Klaasquartel</h3>
+                  <p className="text-gray-600">Industrial equipment en machinery solutions</p>
+                </div>
+                <a 
+                  href="https://klaasquartel.nl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ExternalLink className="w-5 h-5 text-gray-400 hover:text-orange-600 transition-colors duration-200" />
+                </a>
+              </div>
+
+              <div className="mb-6">
+                <h4 className="font-semibold text-gray-900 mb-3">Services Provided</h4>
+                <div className="flex flex-wrap gap-2">
+                  {['Machine management systemen', 'Process optimization', 'Industrial IoT integration', 'Maintenance scheduling'].map((service, idx) => (
+                    <span key={idx} className="px-3 py-1 bg-orange-50 text-orange-600 rounded-full text-sm font-medium">
+                      {service}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-4 mb-6">
+                <div>
+                  <h5 className="font-semibold text-gray-900 mb-1">Project Duration</h5>
+                  <p className="text-gray-600">12 maanden</p>
+                </div>
+                <div>
+                  <h5 className="font-semibold text-gray-900 mb-1">Key Results</h5>
+                  <p className="text-green-600 font-medium">40% efficiency verbetering in machine operations</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2 text-green-600">
+                <CheckCircle className="w-5 h-5" />
+                <span className="font-medium">Project Successfully Completed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Industrial Solutions */}
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Industrial Solutions</h2>
