@@ -53,7 +53,7 @@ const Contact = () => {
       content: 'Schipholweg 103, 2316 XC Leiden',
       link: 'https://www.google.com/maps/place//data=!4m2!3m1!1s0x462674016730135b:0x1b3dc0980b4f2a88?sa=X&ved=1t:8290&ictx=111'
     }
-  ];
+  ]; 
 
   const services = [
     'Client Project Development',
