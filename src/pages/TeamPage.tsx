@@ -118,10 +118,10 @@ const TeamPage = () => {
                 <span className="text-white font-medium">3 Expert Developers</span>
               </div>
               <div className="bg-white/10 px-4 py-2 rounded-full">
-                <span className="text-white font-medium">20+ Jaar Combined Experience</span>
+                <span className="text-white font-medium">25+ Jaar Ervaring</span>
               </div>
               <div className="bg-white/10 px-4 py-2 rounded-full">
-                <span className="text-white font-medium">50+ Projecten Delivered</span>
+                <span className="text-white font-medium">50+ Projecten Geleverd</span>
               </div>
             </div>
           </div>
@@ -134,8 +134,10 @@ const TeamPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Ons Expert Team</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Drie gepassioneerde ontwikkelaars met aanvullende vaardigheden en een gedeelde visie 
-              voor innovatieve technologie oplossingen.
+             Dimitri, Kosse en Michel bundelen in 2021 hun krachten in Apexers. De verschillende karakters vullen elkaar goed aan en dat geeft dit bedrijf iets extra. Ze weten elkaar goed te vinden om te sparren bij complexe technische en functionele vraagstukken, ​het geheel is meer dan de som der delen. 
+            </p>
+ <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+Apexers BV is schaalbaar met flexibele senior software ontwikkelaars uit binnen- en buitenland. 
             </p>
           </div>
 
