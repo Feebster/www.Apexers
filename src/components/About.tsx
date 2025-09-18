@@ -40,14 +40,13 @@ const About = () => {
               Onze Missie
             </h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Wij bridgen de gap tussen cutting-edge technologie en praktische business solutions. 
-              Onze diverse expertise strekt zich uit van custom client development tot AI innovation, 
-              educational technology en industrial automation.
+              Wij overbruggen de kloof tussen geavanceerde technologie en praktische businessoplossingen. Onze brede expertise 
+              strekt zich uit van maatwerk client development tot AI-innovatie, onderwijstechnologie en industriële automatisering.
+
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Met een perfecte balans tussen client projecten en innovatief contract werk, 
-              leveren wij consistent exceptional results die verwachtingen overtreffen en 
-              meaningful business impact creëren.
+              Met de juiste balans tussen klantprojecten en innovatief contractwerk leveren wij consistent uitstekende 
+              resultaten die verwachtingen overtreffen en echte meerwaarde voor bedrijven creëren.
             </p>
           </div>
           
